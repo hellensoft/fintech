@@ -1,13 +1,20 @@
-import { FC } from 'react'
+import { FC } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./containers/Layout";
+import Home from "./pages/Home";
 
 interface IApp {}
 
 const App: FC<IApp> = () => {
-    return (
-        <div className='bg-black'>
-            <h2 className='text-4xl text-red-600'>The app has started</h2>
-        </div>
-    )
-}
+	return (
+		<BrowserRouter>
+			<Layout>
+				<Routes>
+					<Route path="/" element={<Home />} />
+				</Routes>
+			</Layout>
+		</BrowserRouter>
+	);
+};
 
-export default App
+export default App;
