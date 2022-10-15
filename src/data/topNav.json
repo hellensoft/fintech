@@ -1,18 +1,73 @@
 [
     {
         "name": "Home",
-        "link": "/"
+        "link": "/",
+        "multiple": false
     },
     {
-        "name": "About Us",
-        "link": "/about"
+        "name": "Sponser & Exhibit",
+        "multiple": true,
+        "links": [
+            {
+                "name": "Sponsors & Exhibitors",
+                "link": "/sponseors-exhibitors"
+            },
+            {
+                "name": "Download Prospectus",
+                "link": "/download-prospectus"
+            },
+            {
+                "name": "Startup zone",
+                "link": "/startup-sone"
+            },
+            {
+                "name": "Opportunities",
+                "link": "/opportunities"
+            }
+        ]
     },
     {
-        "name": "Events",
-        "link": "/events"
+        "name": "Conference",
+        "multiple": true,
+        "links": [
+            {
+                "name": "Agenda",
+                "link": "/agenda"
+            },
+            {
+                "name": "Keynote Theatre",
+                "link": "/keynote-theatre"
+            },
+            {
+                "name": "Track 1 - Payments",
+                "link": "/track-1-payment"
+            },
+            {
+                "name": "Track 2 - Banking",
+                "link": "/track-2-banking"
+            },
+            {
+                "name": "Track 3 - Fintech",
+                "link": "/track-3-fintech"
+            },
+            {
+                "name": "Speakers",
+                "link": "/speakers"
+            },
+            {
+                "name": "Apply to speak",
+                "link": "/apply-to-speak"
+            }
+        ]
     },
     {
-        "name": "Contact US",
-        "link": "/contact"
+        "name": "Buyers Programme",
+        "link": "/buyers-programme",
+        "multiple": false
+    },
+    {
+        "name": "Login",
+        "link": "/login",
+        "multiple": false
     }
 ]

@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Sponsers from "../components/Sponsers";
 import Statistics from "../components/Statistics";
 import HomeIntro from "../containers/HomeIntro";
 
@@ -9,6 +10,7 @@ const Home: FC<IHome> = () => {
         <div>
             <HomeIntro />
             <Statistics />
+            <Sponsers />
         </div>
     )
 }
