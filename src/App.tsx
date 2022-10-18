@@ -1,6 +1,8 @@
 import { FC } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./containers/Layout";
+import AboutUs from "./pages/AboutUs";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 
 interface IApp {}
@@ -11,6 +13,8 @@ const App: FC<IApp> = () => {
 			<Layout>
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="/about-us" element={<AboutUs />} />
 				</Routes>
 			</Layout>
 		</BrowserRouter>
