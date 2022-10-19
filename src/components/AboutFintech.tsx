@@ -6,11 +6,11 @@ interface IAboutFintech {}
 const AboutFintech: FC<IAboutFintech> = () => {
 	return (
 		<SectionWrapper>
-			<div className="py-24">
+			<div className="py-16 md:py-24">
 				<h1 className="text-bluePrimary text-[34px] text-center font-semibold">
 					ABOUT FINTECH FESTIVAL
 				</h1>
-				<div className="py-20 grid grid-cols-2 gap-12 content-center items-center">
+				<div className="pt-12 md:pt-20 pb-4 md:pb-20 grid grid-cols-1 md:grid-cols-2 gap-12 content-center items-center">
 					<div className="space-y-6">
 						<p className="text-grayText font-medium">
 							FinTech Festival is the largest Financial Technology
@@ -35,9 +35,9 @@ const AboutFintech: FC<IAboutFintech> = () => {
 						<img src="/images/fintech.png" className='rounded-tl-[50px] rounded-br-[50px]' alt="fintech" />
 					</div>
 				</div>
-				<div className="py-20 grid grid-cols-2 gap-12 content-center items-center">
+				<div className="py-0 md:py-20 grid-cols-1 grid md:grid-cols-2 gap-12 content-center items-center">
 					<div>
-						<img src="/images/fintech.png" className='rounded-tl-[50px] rounded-br-[50px]' alt="fintech" />
+						<img src="/images/fintech.png" className='rounded-tl-[50px] hidden md:inline-block rounded-br-[50px]' alt="fintech" />
 					</div>
 					<div className="space-y-6">
 						<p className="text-grayText font-medium">

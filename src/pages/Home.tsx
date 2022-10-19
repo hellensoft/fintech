@@ -13,7 +13,7 @@ const Home: FC<IHome> = () => {
 			<HomeIntro />
 			<Statistics />
 			<SectionWrapper>
-				<div className="py-32 grid grid-cols-2 gap-12 content-center items-center">
+				<div className="py-32 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 content-center items-center">
 					<div>
 						<img
 							src="/images/fintech.png"
@@ -22,7 +22,7 @@ const Home: FC<IHome> = () => {
 						/>
 					</div>
 					<div className="space-y-6">
-						<h1 className="text-bluePrimary text-center text-3xl font-semibold">
+						<h1 className="text-bluePrimary text-center text-2xl lg:text-3xl font-semibold">
 							Are You
 							<br /> A B2B FinTech Company?
 						</h1>

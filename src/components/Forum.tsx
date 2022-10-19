@@ -60,13 +60,13 @@ const Forum: FC<IForum> = () => {
 						vast majority being C-suite, Heads-of-Departments, key
 						decision makers, key influencers, and decision-makers.
 					</p>
-					<div className="grid grid-cols-2 gap-10 max-w-[760px] mx-auto">
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 lg:gap-10 max-w-[760px] mx-auto">
 						{data.map((data, index) => (
 							<div
 								key={index}
 								className="flex items-start space-x-4"
 							>
-								<span className="text-greenPrimary text-2xl font-semibold">
+								<span className="text-greenPrimary hidden xs:inline-block text-2xl font-semibold">
 									{index + 1}
 								</span>
 								<div className="flex flex-col items-start">

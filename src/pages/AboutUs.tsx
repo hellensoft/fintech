@@ -12,7 +12,7 @@ const AboutUs: FC<IAboutUs> = () => {
 			<PageIntro title="About Us" description="Our Team" />
             <AboutFintech />
 			<SectionWrapper>
-				<div className="py-28">
+				<div className="py-16 md:py-28">
 					<div className="max-w-[787px] mx-auto text-center mb-8">
 						<h1 className="text-bluePrimary text-3xl font-semibold mb-4">
 							Team Members
@@ -24,7 +24,7 @@ const AboutUs: FC<IAboutUs> = () => {
 							events.
 						</p>
 					</div>
-					<div className="grid grid-cols-4 py-8 gap-8">
+					<div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-8 gap-8">
 						{teamMembers.map((member, index) => (
 							<div key={index} className='text-center'>
 								<img
