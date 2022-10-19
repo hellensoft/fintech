@@ -30,8 +30,9 @@ const ContactUs: FC<IContactUs> = () => {
 					<h1 className="text-3xl text-bluePrimary font-semibold">
 						Contact Info
 					</h1>
-					<p className="text-blackPrimary font-medium mb-6">
-						Find us here
+					<p className="text-grayText font-medium mb-6">
+						Please reach out for further
+						information through:
 					</p>
 					<div className="space-y-6">
 						{contacts.map((contact, index) => (
@@ -40,7 +41,7 @@ const ContactUs: FC<IContactUs> = () => {
 								className="flex items-center space-x-4"
 							>
 								<contact.icon className="text-bluePrimary h-6 w-6" />
-								<p className="text-blackPrimary font-medium">
+								<p className="text-grayText font-medium">
 									{contact.description}
 								</p>
 							</div>
@@ -78,7 +79,7 @@ const ContactUs: FC<IContactUs> = () => {
 									name="firstName"
 									type="text"
 									placeholder="First Name"
-									className="w-full p-2 border text-blackPrimary focus:outline-none rounded"
+									className="w-full p-2 border text-grayText focus:outline-none rounded"
 								/>
 								<ErrorMessage name="firstName">
 									{(error) => (
@@ -93,7 +94,7 @@ const ContactUs: FC<IContactUs> = () => {
 									name="lastName"
 									type="text"
 									placeholder="Last Name"
-									className="w-full p-2 border text-blackPrimary focus:outline-none rounded"
+									className="w-full p-2 border text-grayText focus:outline-none rounded"
 								/>
 								<ErrorMessage name="lastName">
 									{(error) => (
@@ -109,7 +110,7 @@ const ContactUs: FC<IContactUs> = () => {
 								name="email"
 								type="email"
 								placeholder="Email Address"
-								className="w-full p-2 border text-blackPrimary focus:outline-none rounded"
+								className="w-full p-2 border text-grayText focus:outline-none rounded"
 							/>
 							<ErrorMessage name="email">
 								{(error) => (
@@ -124,7 +125,7 @@ const ContactUs: FC<IContactUs> = () => {
 								name="message"
 								as="textarea"
 								placeholder="Message"
-								className="w-full h-28 p-2 border text-blackPrimary focus:outline-none rounded"
+								className="w-full h-28 p-2 border text-grayText focus:outline-none rounded"
 							/>
 							<ErrorMessage name="message">
 								{(error) => (

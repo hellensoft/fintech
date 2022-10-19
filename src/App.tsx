@@ -1,5 +1,7 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Layout from "./containers/Layout";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
@@ -9,6 +11,11 @@ import SponsorsExhibitors from "./pages/SponsorsExhibitors";
 interface IApp {}
 
 const App: FC<IApp> = () => {
+	useEffect(() => {
+		AOS.init();
+		AOS.refresh();
+	}, []);
+
 	return (
 		<BrowserRouter>
 			<Layout>
@@ -16,7 +23,10 @@ const App: FC<IApp> = () => {
 					<Route path="/" element={<Home />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/about-us" element={<AboutUs />} />
-					<Route path="/sponsors-exhibitors" element={<SponsorsExhibitors />} />
+					<Route
+						path="/sponsors-exhibitors"
+						element={<SponsorsExhibitors />}
+					/>
 				</Routes>
 			</Layout>
 		</BrowserRouter>

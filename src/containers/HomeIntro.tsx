@@ -21,27 +21,15 @@ const HomeIntro: FC<IHomeIntro> = () => {
 			</video>
 			<div className="bg-blueTransparent">
 				<SectionWrapper>
-					<div className="grid grid-cols-2 gap-8 py-24">
-						{/* <div>
-							<Swiper
-								modules={[Navigation, Autoplay]}
-								loop={true}
-								slidesPerView={1}
-								autoplay={{ delay: 2000 }}
-							>
-								<SwiperSlide>Slide 1</SwiperSlide>
-								<SwiperSlide>Slide 2</SwiperSlide>
-								<SwiperSlide>Slide 3</SwiperSlide>
-								<SwiperSlide>Slide 4</SwiperSlide>
-							</Swiper>
-							<div ref={navigationPrevRef}>prev</div>
-							<div ref={navigationNextRef}>next</div>
-						</div> */}
-						<div>
-							<h1 className="text-3xl font-semibold text-white">
+					<div className="max-w-[900px] mx-auto py-32">
+						<div className="text-center">
+							<h1 className="text-xl font-semibold text-white">
+								24th - 25th August 2023
+							</h1>
+							<h1 className="text-4xl font-bold mt-4 text-white">
 								FinTech Festival Tanzania 2023
 							</h1>
-							<p className="my-8 max-w-lg font-medium text-[#fffe]">
+							<p className="my-4 mb-8 max-w-2xl mx-auto font-medium text-[#fffe]">
 								Whether you are a start-up, technology company,
 								investor, financial institution, research
 								institute, or innovation professional, it will
@@ -50,7 +38,7 @@ const HomeIntro: FC<IHomeIntro> = () => {
 								Tanzania & Global FinTech.
 							</p>
 							<Link
-								className="font-medium bg-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-6 rounded-md text-white"
+								className="font-medium bg-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-12 rounded-md text-white"
 								to="/register"
 							>
 								Register

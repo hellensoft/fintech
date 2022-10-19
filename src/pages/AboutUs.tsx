@@ -1,4 +1,5 @@
 import { FC } from "react";
+import AboutFintech from "../components/AboutFintech";
 import PageIntro from "../components/PageIntro";
 import SectionWrapper from "../components/SectionWrapper";
 import teamMembers from "../data/teamMember.json";
@@ -9,13 +10,14 @@ const AboutUs: FC<IAboutUs> = () => {
 	return (
 		<div>
 			<PageIntro title="About Us" description="Our Team" />
+            <AboutFintech />
 			<SectionWrapper>
 				<div className="py-28">
 					<div className="max-w-[787px] mx-auto text-center mb-8">
 						<h1 className="text-bluePrimary text-3xl font-semibold mb-4">
 							Team Members
 						</h1>
-						<p className="text-blackPrimary text-medium">
+						<p className="text-grayText text-medium">
 							Our team comprises senior leaders in Financial
 							Services, Innovation and Media with solid expertise
 							in delivering compelling and memorable top-quality
