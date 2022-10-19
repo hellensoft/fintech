@@ -4,12 +4,19 @@ import { Popover, Transition } from "@headlessui/react";
 import { BsChevronDown } from "react-icons/bs";
 import SectionWrapper from "./SectionWrapper";
 import navigations from "../data/topNav.json";
+import { CgMenu } from "react-icons/cg";
+import { useRecoilState } from "recoil";
+import { openPhoneMenu } from "../recoil/atom";
+import { IoClose } from "react-icons/io5";
 
-interface IHeader {}
+interface IHeader {
+	fixed?: boolean;
+}
 
-const Header: FC<IHeader> = () => {
+const Header: FC<IHeader> = ({ fixed }) => {
 	const [scrolled, setScrolled] = useState(false);
 	const { pathname } = useLocation();
+	const [openSideBar, setOpenSideBar] = useRecoilState(openPhoneMenu);
 
 	useEffect(() => {
 		const handler = () => {
@@ -47,19 +54,29 @@ const Header: FC<IHeader> = () => {
 			<SectionWrapper>
 				<div
 					className={`flex items-center justify-between ${
-						scrolled ? "py-4" : "py-8"
+						scrolled || fixed ? "py-2 lg:py-4" : "py-6 lg:py-8"
 					} duration-200`}
 				>
 					<div>
 						<Link to="/">
 							<img
-								className="h-16 w-auto"
+								className="h-12 md:h-16 w-auto"
 								src="/images/logo-words.png"
 								alt="logo"
 							/>
 						</Link>
 					</div>
-					<div className="ml-auto space-x-8 flex items-center">
+					<button
+						onClick={() => setOpenSideBar(!openSideBar)}
+						className="ml-auto space-x-8 inline-block lg:hidden z-40"
+					>
+						{openSideBar ? (
+							<IoClose className="text-blackPrimary h-7 w-7" />
+						) : (
+							<CgMenu className="text-blackPrimary h-7 w-7" />
+						)}
+					</button>
+					<div className="ml-auto space-x-8 hidden lg:flex items-center">
 						{navigations.map((nav, index) => (
 							<Fragment key={index}>
 								{nav.multiple ? (

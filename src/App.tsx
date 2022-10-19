@@ -1,5 +1,6 @@
 import { FC, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { RecoilRoot } from "recoil";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Layout from "./containers/Layout";
@@ -17,19 +18,21 @@ const App: FC<IApp> = () => {
 	}, []);
 
 	return (
-		<BrowserRouter>
-			<Layout>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="/about-us" element={<AboutUs />} />
-					<Route
-						path="/sponsors-exhibitors"
-						element={<SponsorsExhibitors />}
-					/>
-				</Routes>
-			</Layout>
-		</BrowserRouter>
+		<RecoilRoot>
+			<BrowserRouter>
+				<Layout>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="/about-us" element={<AboutUs />} />
+						<Route
+							path="/sponsors-exhibitors"
+							element={<SponsorsExhibitors />}
+						/>
+					</Routes>
+				</Layout>
+			</BrowserRouter>
+		</RecoilRoot>
 	);
 };
 
