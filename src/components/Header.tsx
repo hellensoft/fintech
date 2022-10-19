@@ -1,5 +1,5 @@
-import { FC, Fragment } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { FC, Fragment, useState, useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { Popover, Transition } from "@headlessui/react";
 import { BsChevronDown } from "react-icons/bs";
 import SectionWrapper from "./SectionWrapper";
@@ -8,10 +8,48 @@ import navigations from "../data/topNav.json";
 interface IHeader {}
 
 const Header: FC<IHeader> = () => {
+	const [scrolled, setScrolled] = useState(false);
+	const { pathname } = useLocation();
+
+	useEffect(() => {
+		const handler = () => {
+			setScrolled((scrolled) => {
+				if (
+					!scrolled &&
+					(document.body.scrollTop > 20 ||
+						document.documentElement.scrollTop > 20)
+				) {
+					return true;
+				}
+
+				if (
+					scrolled &&
+					document.body.scrollTop < 4 &&
+					document.documentElement.scrollTop < 4
+				) {
+					return false;
+				}
+
+				return scrolled;
+			});
+		};
+
+		window.addEventListener("scroll", handler);
+		return () => window.removeEventListener("scroll", handler);
+	});
+
 	return (
-		<div className="border-b">
+		<div
+			className={`sticky top-0 border-b bg-[#fffe] backdrop-blur z-30 ${
+				scrolled && "shadow-lg"
+			}`}
+		>
 			<SectionWrapper>
-				<div className="flex items-center justify-between py-8">
+				<div
+					className={`flex items-center justify-between ${
+						scrolled ? "py-4" : "py-8"
+					} duration-200`}
+				>
 					<div>
 						<Link to="/">
 							<img
@@ -30,7 +68,12 @@ const Header: FC<IHeader> = () => {
 											<>
 												<Popover.Button
 													className={`hover:text-greenPrimary font-medium focus:outline-none flex items-center ${
-														open
+														open ||
+														nav.links?.some(
+															(el) =>
+																el.link ===
+																pathname
+														)
 															? "text-greenPrimary"
 															: "text-bluePrimary"
 													} duration-300`}
@@ -64,6 +107,9 @@ const Header: FC<IHeader> = () => {
 																		key={
 																			index
 																		}
+																		end={
+																			link.end
+																		}
 																		to={
 																			link.link ||
 																			"/"
@@ -93,6 +139,7 @@ const Header: FC<IHeader> = () => {
 									<NavLink
 										key={index}
 										to={nav.link || "/"}
+										end={nav.end}
 										className={({ isActive }) =>
 											`hover:text-greenPrimary font-medium text-bluePrimary ${
 												isActive && "text-greenPrimary"

@@ -10,7 +10,7 @@ interface IContactUs {}
 const contacts = [
 	{
 		icon: FiMail,
-		description: "sales@fintechfestivaltanzania.co.tz",
+		description: "deo@fintechfestivaltanzania.co.tz",
 	},
 	{
 		icon: FiPhone,
@@ -18,7 +18,7 @@ const contacts = [
 	},
 	{
 		icon: MdLocationOn,
-		description: "Address location",
+		description: "Brane Aves, Dar es salaam",
 	},
 ];
 

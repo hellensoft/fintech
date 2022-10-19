@@ -24,13 +24,13 @@ const AboutUs: FC<IAboutUs> = () => {
 					</div>
 					<div className="grid grid-cols-4 py-8 gap-8">
 						{teamMembers.map((member, index) => (
-							<div key={index}>
+							<div key={index} className='text-center'>
 								<img
 									className="w-full aspect-[1/1] object-cover object-center rounded-tl-[30px] rounded-br-[30px]"
 									src={member.image}
 									alt={member.name}
 								/>
-								<h3 className="text-blackPrimary text-xl mt-2 font-semibold">
+								<h3 className="text-blackPrimary text-xl mt-3 font-semibold">
 									{member.name}
 								</h3>
 								<p className="text-bluePrimary font-semibold text-sm">

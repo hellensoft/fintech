@@ -1,4 +1,5 @@
-import { FC, ReactNode } from "react";
+import { useLocation } from "react-router-dom";
+import { FC, ReactNode, useEffect } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -7,12 +8,18 @@ interface ILayout {
 }
 
 const Layout: FC<ILayout> = ({ children }) => {
+	const location = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);  
+	}, [location]);
+
 	return (
-		<>
+		<div className="relative">
 			<Header />
 			{children}
 			<Footer />
-		</>
+		</div>
 	);
 };
 

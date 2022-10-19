@@ -6,13 +6,13 @@ import HomeIntro from "../containers/HomeIntro";
 interface IHome {}
 
 const Home: FC<IHome> = () => {
-    return (
-        <div>
-            <HomeIntro />
-            <Statistics />
-            <Sponsers />
-        </div>
-    )
-}
+	return (
+		<div>
+			<HomeIntro />
+			<Statistics />
+			<Sponsers />
+		</div>
+	);
+};
 
-export default Home
+export default Home;

@@ -2,7 +2,8 @@
 	{
 		"name": "Home",
 		"link": "/",
-		"multiple": false
+		"multiple": false,
+		"end": true
 	},
 	{
 		"name": "Sponser & Exhibit",
@@ -10,19 +11,23 @@
 		"links": [
 			{
 				"name": "Sponsors & Exhibitors",
-				"link": "/sponseors-exhibitors"
+				"link": "/sponsors-exhibitors",
+				"end": false
 			},
 			{
 				"name": "Download Prospectus",
-				"link": "/download-prospectus"
+				"link": "/download-prospectus",
+				"end": false
 			},
 			{
 				"name": "Startup zone",
-				"link": "/startup-sone"
+				"link": "/startup-sone",
+				"end": false
 			},
 			{
 				"name": "Opportunities",
-				"link": "/opportunities"
+				"link": "/opportunities",
+				"end": false
 			}
 		]
 	},
@@ -32,42 +37,51 @@
 		"links": [
 			{
 				"name": "Agenda",
-				"link": "/agenda"
+				"link": "/agenda",
+				"end": false
 			},
 			{
 				"name": "Keynote Theatre",
-				"link": "/keynote-theatre"
+				"link": "/keynote-theatre",
+				"end": false
 			},
 			{
 				"name": "Track 1 - Payments",
-				"link": "/track-1-payment"
+				"link": "/track-1-payment",
+				"end": false
 			},
 			{
 				"name": "Track 2 - Banking",
-				"link": "/track-2-banking"
+				"link": "/track-2-banking",
+				"end": false
 			},
 			{
 				"name": "Track 3 - Fintech",
-				"link": "/track-3-fintech"
+				"link": "/track-3-fintech",
+				"end": false
 			},
 			{
 				"name": "Speakers",
-				"link": "/speakers"
+				"link": "/speakers",
+				"end": false
 			},
 			{
 				"name": "Apply to speak",
-				"link": "/apply-to-speak"
+				"link": "/apply-to-speak",
+				"end": false
 			}
 		]
 	},
 	{
 		"name": "Contact Us",
 		"link": "/contact",
-		"multiple": false
+		"multiple": false,
+		"end": false
 	},
 	{
 		"name": "About Us",
 		"link": "/about-us",
-		"multiple": false
+		"multiple": false,
+		"end": false
 	}
 ]
