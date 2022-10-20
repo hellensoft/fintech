@@ -1,0 +1,21 @@
+import { FC } from "react";
+import PageIntro from "../components/PageIntro";
+import SponsorBenefits from "../components/SponsorBenefits";
+import WhySponser from "../components/WhySponser";
+
+interface ISponsorsExhibitors {}
+
+const SponsorsExhibitors: FC<ISponsorsExhibitors> = () => {
+	return (
+		<div>
+			<PageIntro
+				title="Sponsers and Exhibitors"
+				description="Get in front of the FinTech community"
+			/>
+			<SponsorBenefits />
+            <WhySponser />
+		</div>
+	);
+};
+
+export default SponsorsExhibitors;

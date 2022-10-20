@@ -1,13 +1,41 @@
-import { FC } from 'react'
+import { FC, useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { RecoilRoot } from "recoil";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Layout from "./containers/Layout";
+import AboutUs from "./pages/AboutUs";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import SponsorsExhibitors from "./pages/SponsorsExhibitors";
+import Enquiry from "./pages/Enquiry";
 
 interface IApp {}
 
 const App: FC<IApp> = () => {
-    return (
-        <div className='bg-black'>
-            <h2 className='text-4xl text-red-600'>The app has started</h2>
-        </div>
-    )
-}
+	useEffect(() => {
+		AOS.init();
+		AOS.refresh();
+	}, []);
 
-export default App
+	return (
+		<RecoilRoot>
+			<BrowserRouter>
+				<Layout>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="/about-us" element={<AboutUs />} />
+						<Route path="/enquiry" element={<Enquiry />} />
+						<Route
+							path="/sponsors-exhibitors"
+							element={<SponsorsExhibitors />}
+						/>
+					</Routes>
+				</Layout>
+			</BrowserRouter>
+		</RecoilRoot>
+	);
+};
+
+export default App;

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Deogratius John",
+		"position": "Managing Director (Eastern Star Consulting Group)",
+		"image": "/images/deo-kiwale.jpg"
+	},
+	{
+		"name": "Anselm Misango",
+		"position": "Managing Director (JANDWAS' TECHNOLOGY)",
+		"image": "/images/anslem.png"
+	},
+	{
+		"name": "Dr. Daudi P. Ndaki",
+		"position": "Chartered MCSI (Mzumbe University)",
+		"image": "/images/daudi.png"
+	},
+	{
+		"name": "Roshaan Kulpoo",
+		"position": "Executive Director (eGiftAfrica)",
+		"image": "/images/roshaan.png"
+	},
+	{
+		"name": "Muhammad Z. Mughal",
+		"position": "MD/CEO (Alhuda CIBE)",
+		"image": "/images/muhammad.png"
+	},
+	{
+		"name": "Happiness Watimanywa",
+		"position": "Chapter Director Dar es Salaam (ACCA)",
+		"image": "/images/happiness.png"
+	},
+	{
+		"name": "Martin K. Awagah",
+		"position": "President (Ghana Fintech & Payment Association)",
+		"image": "/images/martin.png"
+	}
+]
