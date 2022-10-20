@@ -58,7 +58,7 @@ const WhySponser: FC<IWhySponser> = () => {
 									<Disclosure.Button className="text-md text-bluePrimary w-full flex items-center justify-between font-medium">
 										<span>{question.name}</span>
 										<FaChevronDown
-											className={`h-5 w-5 duration-100 ${
+											className={`h-5 w-5 duration-100ro ${
 												open ? "rotate-180" : "rotate-0"
 											}`}
 										/>

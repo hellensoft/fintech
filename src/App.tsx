@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import SponsorsExhibitors from "./pages/SponsorsExhibitors";
+import Enquiry from "./pages/Enquiry";
 
 interface IApp {}
 
@@ -25,6 +26,7 @@ const App: FC<IApp> = () => {
 						<Route path="/" element={<Home />} />
 						<Route path="/contact" element={<Contact />} />
 						<Route path="/about-us" element={<AboutUs />} />
+						<Route path="/enquiry" element={<Enquiry />} />
 						<Route
 							path="/sponsors-exhibitors"
 							element={<SponsorsExhibitors />}

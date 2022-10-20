@@ -51,7 +51,7 @@ const Forum: FC<IForum> = () => {
 		<div className="bg-bluePrimary">
 			<SectionWrapper>
 				<div className="py-24">
-					<h2 className="text-white font-semibold text-center mb-2 text-4xl">
+					<h2 className="text-white font-semibold text-center mb-2 text-5xl">
 						2022 Forum
 					</h2>
 					<p className="text-[#dddddd] font-medium mt-1 mb-12 max-w-[850px] text-center mx-auto">
@@ -66,7 +66,7 @@ const Forum: FC<IForum> = () => {
 								key={index}
 								className="flex items-start space-x-4"
 							>
-								<span className="text-greenPrimary hidden xs:inline-block text-2xl font-semibold">
+								<span className="text-yellowPrimary hidden xs:inline-block text-2xl font-semibold">
 									{index + 1}
 								</span>
 								<div className="flex flex-col items-start">

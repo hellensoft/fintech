@@ -6,6 +6,12 @@
 		"end": true
 	},
 	{
+		"name": "About Us",
+		"link": "/about-us",
+		"multiple": false,
+		"end": false
+	},
+	{
 		"name": "Sponser & Exhibit",
 		"multiple": true,
 		"links": [
@@ -27,6 +33,11 @@
 			{
 				"name": "Opportunities",
 				"link": "/opportunities",
+				"end": false
+			},
+			{
+				"name": "Enquiry",
+				"link": "/enquiry",
 				"end": false
 			}
 		]
@@ -75,12 +86,6 @@
 	{
 		"name": "Contact Us",
 		"link": "/contact",
-		"multiple": false,
-		"end": false
-	},
-	{
-		"name": "About Us",
-		"link": "/about-us",
 		"multiple": false,
 		"end": false
 	}
