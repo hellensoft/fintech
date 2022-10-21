@@ -7,6 +7,7 @@ module.exports = {
 			sm: "640px",
 			md: "768px",
 			lg: "1024px",
+			"2lg": "1100px",
 			xl: "1280px",
 			"2xl": "1536px",
 		},
@@ -22,7 +23,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [
-        require('@tailwindcss/forms'),
-    ],
+	plugins: [require("@tailwindcss/forms")],
 };

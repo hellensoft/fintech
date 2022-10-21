@@ -54,7 +54,7 @@ const Header: FC<IHeader> = ({ fixed }) => {
 			<SectionWrapper>
 				<div
 					className={`flex items-center justify-between ${
-						scrolled || fixed ? "py-2 lg:py-4" : "py-6 lg:py-8"
+						scrolled || fixed ? "py-2 2lg:py-4" : "py-6 2lg:py-8"
 					} duration-200`}
 				>
 					<div>
@@ -68,7 +68,7 @@ const Header: FC<IHeader> = ({ fixed }) => {
 					</div>
 					<button
 						onClick={() => setOpenSideBar(!openSideBar)}
-						className="ml-auto space-x-8 inline-block lg:hidden z-40"
+						className="ml-auto space-x-8 inline-block 2lg:hidden z-40"
 					>
 						{openSideBar ? (
 							<IoClose className="text-blackPrimary h-7 w-7" />
@@ -76,7 +76,7 @@ const Header: FC<IHeader> = ({ fixed }) => {
 							<CgMenu className="text-blackPrimary h-7 w-7" />
 						)}
 					</button>
-					<div className="ml-auto space-x-8 hidden lg:flex items-center">
+					<div className="ml-auto space-x-8 hidden 2lg:flex items-center">
 						{navigations.map((nav, index) => (
 							<Fragment key={index}>
 								{nav.multiple ? (

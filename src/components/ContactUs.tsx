@@ -25,14 +25,13 @@ const contacts = [
 const ContactUs: FC<IContactUs> = () => {
 	return (
 		<SectionWrapper>
-			<div className="grid grid-cols-2 gap-8 py-28">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-28">
 				<div>
 					<h1 className="text-3xl text-bluePrimary font-semibold">
 						Contact Info
 					</h1>
 					<p className="text-grayText font-medium mb-6">
-						Please reach out for further
-						information through:
+						Please reach out for further information through:
 					</p>
 					<div className="space-y-6">
 						{contacts.map((contact, index) => (
@@ -73,7 +72,7 @@ const ContactUs: FC<IContactUs> = () => {
 					onSubmit={(values) => console.log(values)}
 				>
 					<Form className="grid grid-cols-1 gap-4">
-						<div className="grid grid-cols-2 gap-4">
+						<div className="grid grid-cols-1 xs:grid-cols-2 gap-4">
 							<div>
 								<Field
 									name="firstName"
