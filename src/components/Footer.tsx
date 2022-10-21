@@ -1,6 +1,7 @@
 import { FC } from "react";
 import SectionWrapper from "./SectionWrapper";
-import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 interface IFooter {}
 
@@ -18,12 +19,18 @@ const Footer: FC<IFooter> = () => {
 						<span className="font-semibold">HellenSOFT</span>
 					</p>
 					<div className="flex  items-center space-x-6">
-						<a href="#">
+						<Link to='#'>
 							<FaTwitter className="text-white h-5 w-5" />
-						</a>
-						<a href="#">
+						</Link>
+						<Link to='#'>
 							<FaLinkedinIn className="text-white h-5 w-5" />
-						</a>
+						</Link>
+						<Link to='#'>
+							<FaFacebook className="text-white h-5 w-5" />
+						</Link>
+						<Link to='#'>
+							<FaInstagram className="text-white h-5 w-5" />
+						</Link>
 					</div>
 				</div>
 			</SectionWrapper>

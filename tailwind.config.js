@@ -15,11 +15,14 @@ module.exports = {
 				blackPrimary: "#000008",
 				bluePrimary: "#29388d",
 				grayText: "#52576a",
+				grayText2: "#666666",
 				blueTransparent: "#29388dc9",
 				greenPrimary: "#09793d",
 				yellowPrimary: "#ffb703",
 			},
 		},
 	},
-	plugins: [],
+	plugins: [
+        require('@tailwindcss/forms'),
+    ],
 };

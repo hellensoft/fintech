@@ -88,38 +88,13 @@
 		"multiple": true,
 		"links": [
 			{
-				"name": "Agenda",
-				"link": "/agenda",
+				"name": "Awards",
+				"link": "/awards",
 				"end": false
 			},
 			{
-				"name": "Keynote Theatre",
+				"name": "Awards categories",
 				"link": "/keynote-theatre",
-				"end": false
-			},
-			{
-				"name": "Track 1 - Payments",
-				"link": "/track-1-payment",
-				"end": false
-			},
-			{
-				"name": "Track 2 - Banking",
-				"link": "/track-2-banking",
-				"end": false
-			},
-			{
-				"name": "Track 3 - Fintech",
-				"link": "/track-3-fintech",
-				"end": false
-			},
-			{
-				"name": "Speakers",
-				"link": "/speakers",
-				"end": false
-			},
-			{
-				"name": "Apply to speak",
-				"link": "/apply-to-speak",
 				"end": false
 			}
 		]
