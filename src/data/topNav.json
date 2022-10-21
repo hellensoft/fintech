@@ -91,11 +91,6 @@
 				"name": "Awards",
 				"link": "/awards",
 				"end": false
-			},
-			{
-				"name": "Awards categories",
-				"link": "/keynote-theatre",
-				"end": false
 			}
 		]
 	},
