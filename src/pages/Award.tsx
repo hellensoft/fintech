@@ -1,9 +1,7 @@
 import { FC } from "react";
-import { Link } from "react-router-dom";
-import AboutFintech from "../components/AboutFintech";
+import AwardsCreteria from "../components/AwardsCreteria";
 import PageIntro from "../components/PageIntro";
 import SectionWrapper from "../components/SectionWrapper";
-import teamMembers from "../data/teamMember.json";
 
 interface IAwards {}
 
@@ -47,6 +45,7 @@ const Awards: FC<IAwards> = () => {
 					</div>
 				</div>
 			</SectionWrapper>
+			<AwardsCreteria />
 		</div>
 	);
 };

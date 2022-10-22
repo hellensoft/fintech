@@ -1,6 +1,11 @@
 import { FC } from "react";
 import SectionWrapper from "./SectionWrapper";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+	FaFacebook,
+	FaInstagram,
+	FaLinkedinIn,
+	FaTwitter,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 interface IFooter {}
@@ -16,19 +21,19 @@ const Footer: FC<IFooter> = () => {
 							FintechFestivalTanzania2022
 						</span>
 						, All rights Reserved. Experienced by{" "}
-						<span className="font-semibold">HellenSOFT</span>
+						<span className="font-semibold">HELLENSoft</span>
 					</p>
 					<div className="flex  items-center space-x-6">
-						<Link to='#'>
+						<Link to="#">
 							<FaTwitter className="text-white h-5 w-5" />
 						</Link>
-						<Link to='#'>
+						<Link to="#">
 							<FaLinkedinIn className="text-white h-5 w-5" />
 						</Link>
-						<Link to='#'>
+						<Link to="#">
 							<FaFacebook className="text-white h-5 w-5" />
 						</Link>
-						<Link to='#'>
+						<Link to="#">
 							<FaInstagram className="text-white h-5 w-5" />
 						</Link>
 					</div>
