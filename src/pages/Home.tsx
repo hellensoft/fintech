@@ -3,6 +3,7 @@ import Forum from "../components/Forum";
 import SectionWrapper from "../components/SectionWrapper";
 import Sponsers from "../components/Sponsers";
 import Statistics from "../components/Statistics";
+import WhoAttends from "../components/WhoAttends";
 import HomeIntro from "../containers/HomeIntro";
 
 interface IHome {}
@@ -42,6 +43,7 @@ const Home: FC<IHome> = () => {
 			</SectionWrapper>
 			<Sponsers />
             <Forum />
+            <WhoAttends />
 		</div>
 	);
 };
