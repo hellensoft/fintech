@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Exhibitors from "../components/Exhibitors";
 import Forum from "../components/Forum";
 import SectionWrapper from "../components/SectionWrapper";
 import Sponsers from "../components/Sponsers";
@@ -42,8 +43,9 @@ const Home: FC<IHome> = () => {
 				</div>
 			</SectionWrapper>
 			<Sponsers />
-            <Forum />
-            <WhoAttends />
+			<Forum />
+			<WhoAttends />
+			<Exhibitors />
 		</div>
 	);
 };
