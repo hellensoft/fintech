@@ -38,7 +38,7 @@ const SideBar: FC<ISideBar> = () => {
 						<Dialog.Panel className="h-screen w-[320px] bg-white">
 							<Header fixed />
 
-							<div className="ml-auto overflow-auto flex flex-col w-full lg:hidden items-center">
+							<div className="ml-auto overflow-auto flex flex-col w-full 2lg:hidden items-center">
 								{navigations.map((nav, index) => (
 									<Fragment key={index}>
 										{nav.multiple ? (

@@ -1,8 +1,10 @@
 import { FC } from "react";
+import Exhibitors from "../components/Exhibitors";
 import Forum from "../components/Forum";
 import SectionWrapper from "../components/SectionWrapper";
 import Sponsers from "../components/Sponsers";
 import Statistics from "../components/Statistics";
+import WhoAttends from "../components/WhoAttends";
 import HomeIntro from "../containers/HomeIntro";
 
 interface IHome {}
@@ -41,7 +43,9 @@ const Home: FC<IHome> = () => {
 				</div>
 			</SectionWrapper>
 			<Sponsers />
-            <Forum />
+			<Forum />
+			<WhoAttends />
+			<Exhibitors />
 		</div>
 	);
 };

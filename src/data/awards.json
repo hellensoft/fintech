@@ -1,0 +1,167 @@
+[
+	{
+		"title": "Diversity & Inclusion In Innovation Awards",
+		"description": "This award is to recognize an organization, a company or a person who has demonstrated leadership in diversity and inclusion in Africa in the innovation space. The demonstration of diversity and inclusion must be measurable and transparent and constitute real support for inclusivity. This award is not open to a scheduled bank, a credit union or a financial institution.",
+		"createria": [
+			"Must be found in Africa or an organization or entity",
+			"Must demonstrate concrete leadership in diversity and inclusion",
+			"Must be in innovation space",
+			"Results must be visible and measurable",
+			"Not intended for advisory firms but rather is to recognize tech innovators leading in diversity and inclusion",
+			"Not open to banks, credit unions or financial institutions"
+		]
+	},
+	{
+		"title": "Africa Digital Financial Inclusion Facility-Bank Innovator Of The Year",
+		"description": "Africa Digital Financial Inclusion Facility– Bank Innovator of the Year Award is for an African bank that has had a positive impact on FinTech in Africa, either by breaking down silos to support innovation internally, by creating innovating and novel FinTech for the financial institution or by entering into partnerships that support for the development of FinTech. Judges also look for leadership measured by support for many different ecosystem players that demonstrates a clear commitment to supporting African innovation. This Award is not designed for financial institutions that adopt, deploy, or purchase FinTech created by third parties but instead is designed to recognize innovative internal initiatives that engage employees and support innovation designed by Africans.",
+		"createria": [
+			"Must be an African entity",
+			"Must be a scheduled bank",
+			"Must be creating innovative Canadian technology",
+			"Must have supported the African innovation ecosystem inclusively"
+		]
+	},
+	{
+		"title": "FinTech Startup of the Year",
+		"description": "This Award is for a new, up-and-coming FinTech company in Africa that is less than four years old as of December 31, 2021, and has shown the most entrepreneurial success in the past year in FinTech. Success ismeasured on a number of factors, including innovative technology, solving a technology need, capturing a new sector or market with FinTech, disruption of a service or market segment, a novel application of a product or service, or traction in the international marketplace.",
+		"createria": [
+			"Must be under four years old (by December 31, 2021)",
+			"Must be a Canadian entity",
+			"Must have demonstrated tech innovation",
+			"Must provide a financial product/service/technology",
+			"Must have technology that is in use externally or by customers"
+		]
+	},
+	{
+		"title": "FemTech Leader of the Year",
+		"description": "This Award is designed to recognize a woman who is a leader in technology in FinTech or innovating within Africa. To be eligible, nominees must be leaders in the creation of technology or a supervisory or oversight role of internal technology creation. This Award is intended to recognize a woman who supports financial technology in a hands-on manner that benefits Africa and is a technology innovator.",
+		"createria": [
+			"Must work in Africa",
+			"Must contribute to the African tech industry",
+			"Must have been in technology space for over three years",
+			"Must have demonstrated leadership in tech",
+			"Must be known to have supported others to move up the ladder"
+		]
+	},
+	{
+		"title": "Credit Union of the Year",
+		"description": "This Award is designed to recognize the important role that credit unions play in the African financial services landscape, often providing financial inclusion solutions and banking to niche sectors of customers in targeted areas of the country, and importantly to recognize the innovation in financial services they provide to their customer base. This Award isrecognizing a credit union in Africa that is a leader in technology innovation. It has designed and implemented technology to help customers bank better or to help the credit union improve its services to its customer base. Judges also look for leadership measured by support for many different players in the ecosystem that demonstrate a clear commitment to supporting African innovation.",
+		"createria": [
+			"Must be an African entity",
+			"Must be a credit union",
+			"Must have the technology developed that is innovative",
+			"Must have technology that is in use",
+			"Must have demonstrated leadership",
+			"Must have supported the innovative African ecosystem inclusively"
+		]
+	},
+	{
+		"title": "FinTech Company of the Year",
+		"description": "This Award is for an established FinTech company in Africa that has been providing financial products or services for over four years and is actively engaged in innovation creation. Success is measured by a number of factors, including partnerships with banks or providing services directly to consumers, significant growth or adoption, and name recognition or marketplace leadership.",
+		"createria": [
+			"Must be over four years old",
+			"Must be an African entity",
+			"Must have financial services or products for financial services",
+			"Must have measurable external adoption of product or service",
+			"Must have a pattern of sustained growth",
+			"Must demonstrate the impact of the company on the ecosystem"
+		]
+	},
+	{
+		"title": "AI Company of the Year",
+		"description": "This Award is for an AI company that has shown the most entrepreneurial success in the past year. Success is measured by a number of factors, including innovation, solving a technology problem with AI, disruption of a service or market segment, application of a product or service and traction in, or ability to obtain traction in the international marketplace in AI.",
+		"createria": [
+			"Must be an African entity",
+			"Must have demonstrated impact in AI technology",
+			"Must have novel technology or application worthy of recognition",
+			"Must have technology that is in use",
+			"Open to AI companies in any sector, not only financial services"
+		]
+	},
+	{
+		"title": "Entrepreneur/Innovation Leader of the Year",
+		"description": "This Award is for an African person who has demonstrated the most leadership in innovation or entrepreneurship in technology, FinTech or AI. It recognizes the person who has had an impact on shaping the African technology dialogue and supporting the innovation ecosystem. Leadership is measured by thought leadership, the advancement of commercial technology or investment in technology and support for the ecosystem.",
+		"createria": [
+			"Must work in Africa",
+			"Must contribute to the African tech industry",
+			"Must be a person whose contributions have been impactful",
+			"Must have been in technology space for over three years",
+			"Must be able to demonstrate leadership through giving back or supporting others in the tech"
+		]
+	},
+	{
+		"title": "Payments Company of the Year",
+		"description": "This Award is new and is for the company that provides payment services, whatever the model or type, and is a clear leader in providing payments as a service. The nominees must be an African company or have amaterial part of its business in Africa in order to be eligible. Nominees must have technology that is operational and in use by third parties.",
+		"createria": [
+			"Must be an African entity",
+			"Must have created payments innovation",
+			"Must have technology that is impactful for its customers in a beneficial way",
+			"Must have technology that is in use externally",
+			"Must be a leader in the payments sector"
+		]
+	},
+	{
+		"title": "Blockchain Company of the Year",
+		"description": "This Award is for a Blockchain distributed ledger technology, smart contracts development company, or a services company in the Blockchain space in Africa that has developed the most novel, practical or utilized technology for digital currencies, Blockchain or the public. Success could include consumer traction, tech prowess, and novel or globally impactful solutions. This Award is for technology in use.",
+		"createria": [
+			"Must be an African entity",
+			"Must be related to Blockchain technology",
+			"Must have created innovative technology",
+			"Must have technology that is in use externally",
+			"Must have solutions that are impactful to end users",
+			"Not intended for advisory services but rather for companies creating technology"
+		]
+	},
+	{
+		"title": "RegTech Solution of the Year",
+		"description": "This Award is designed to recognize either a company, a team within an organization, including a bank, NGO or government agency, or a technology solution that has made a material impact with technology for regulatory compliance in Africa or an African organization related to financial services. The solution or team could be within a large financial institution and include, for example, efforts to mitigate financial crime or anti-money laundering law, or it could be a stand-alone technology solution designed for third-party use. The emphasis of this Award is to recognize the important role that technology plays for responsible innovation and to recognize leadership for responsible innovation in Africa.",
+		"createria": [
+			"Must be an African entity, team or technology solution",
+			"Must have technology that is in use",
+			"It must be a solution related to regulatory compliance",
+			"Must have demonstrated leadership of technology, the solution or as a company",
+			"Must be considered novel, new, or in some way innovative",
+			"Intended to recognize responsible innovation"
+		]
+	},
+	{
+		"title": "Law Firm of the Year",
+		"description": "This Award is for an African law firm that has been the most impactful in the FinTech or AI space. It recognizes a law firm that has been in the FinTech or AI space for a number of years and has been instrumental in helping to launch or grow FinTech or AI companies through legal advice.",
+		"createria": [
+			"Must be an African firm",
+			"Must provide legal services to FinTechs or AI companies",
+			"Must have demonstrated financing, M&As, or advice related to FinTech or AI",
+			"Must have supported the African innovation ecosystem inclusively"
+		]
+	},
+	{
+		"title": "Advisory Firm of the Year",
+		"description": "This Award is for a consulting or accounting firm in Africa that has been the most impactful advisory services in the FinTech or AI space. It is for the firm that has been in the FinTech or AI startup space for a number of years and is impactful in helping to develop FinTech or AI companies, either through consulting or accounting services.",
+		"createria": [
+			"Must be an African firm",
+			"Must provide legal services to FinTechs or AI companies",
+			"Must have supported the African innovation ecosystem inclusively"
+		]
+	},
+	{
+		"title": "Investment Firm of the Year",
+		"description": "This Award is designed for the investment firm whose financial support has been sustained in Africa and has assisted many companies in launching, and that has helped to create innovative technologies or develop the FinTech or AI space the most in Africa.",
+		"createria": [
+			"Must be an African entity",
+			"Must demonstrate the impact of finance on the ecosystem",
+			"Must have demonstrated leadership in funding FinTech or startups",
+			"Must have supported the African innovation ecosystem inclusively",
+			"Not intended for firms that primarily promoted"
+		]
+	},
+	{
+		"title": "An incubator of the Year",
+		"description": "This Award is for the accelerator or incubator that has demonstrated success in helping FinTech or AI startups to launch their business and develop technology or work with others in the sector to develop the most impactful innovative product or service. This Award recognizes the importance of incubators and accelerators in fostering ecosystem support or other forms of support in Africa that drive and advance innovation inclusively.",
+		"createria": [
+			"It must be an African entity.",
+			"Must be in the FinTech or AI space",
+			"ust demonstrate the success of startups graduated from an accelerator or incubator",
+			"Must demonstrate a supportive approach to an African innovation ecosystem inclusively"
+		]
+	}
+]

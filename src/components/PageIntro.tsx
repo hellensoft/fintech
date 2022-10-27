@@ -1,12 +1,22 @@
 import { FC } from "react";
+import { HashLink } from 'react-router-hash-link';
 import SectionWrapper from "./SectionWrapper";
 
 interface IPageIntro {
 	title: string;
 	description: string;
+	backLink?: string;
+	backText?: string;
+	currentText?: string;
 }
 
-const PageIntro: FC<IPageIntro> = ({ title, description }) => {
+const PageIntro: FC<IPageIntro> = ({
+	title,
+	description,
+	backLink,
+	backText,
+	currentText,
+}) => {
 	return (
 		<div className="relative">
 			<video
@@ -22,6 +32,12 @@ const PageIntro: FC<IPageIntro> = ({ title, description }) => {
 						<h1 className="text-4xl text-white font-semibold">
 							{title}
 						</h1>
+						{backLink && backText && currentText && (
+							<p className="text-[#fffe] font-medium mt-2">
+								<HashLink className='underline' to={backLink as string}>{backText}</HashLink>/  
+								{currentText}
+							</p>
+						)}
 						<p className="text-[#fffe] font-medium mt-2">
 							{description}
 						</p>

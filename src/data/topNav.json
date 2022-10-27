@@ -6,7 +6,7 @@
 		"end": true
 	},
 	{
-		"name": "About Us",
+		"name": "About",
 		"link": "/about-us",
 		"multiple": false,
 		"end": false
@@ -84,7 +84,23 @@
 		]
 	},
 	{
-		"name": "Contact Us",
+		"name": "Awards & Media",
+		"multiple": true,
+		"links": [
+			{
+				"name": "Awards",
+				"link": "/awards",
+				"end": false
+			},
+			{
+				"name": "Events and Media",
+				"link": "/event-media",
+				"end": false
+			}
+		]
+	},
+	{
+		"name": "Contact",
 		"link": "/contact",
 		"multiple": false,
 		"end": false
