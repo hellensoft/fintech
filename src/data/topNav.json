@@ -22,17 +22,7 @@
 			},
 			{
 				"name": "Download Prospectus",
-				"link": "/download-prospectus",
-				"end": false
-			},
-			{
-				"name": "Startup zone",
-				"link": "/startup-sone",
-				"end": false
-			},
-			{
-				"name": "Opportunities",
-				"link": "/opportunities",
+				"link": "#",
 				"end": false
 			},
 			{
@@ -43,58 +33,38 @@
 		]
 	},
 	{
-		"name": "Conference",
+		"name": "Agenda/Speakers",
 		"multiple": true,
 		"links": [
 			{
 				"name": "Agenda",
-				"link": "/agenda",
-				"end": false
-			},
-			{
-				"name": "Keynote Theatre",
-				"link": "/keynote-theatre",
-				"end": false
-			},
-			{
-				"name": "Track 1 - Payments",
-				"link": "/track-1-payment",
-				"end": false
-			},
-			{
-				"name": "Track 2 - Banking",
-				"link": "/track-2-banking",
-				"end": false
-			},
-			{
-				"name": "Track 3 - Fintech",
-				"link": "/track-3-fintech",
+				"link": "#",
 				"end": false
 			},
 			{
 				"name": "Speakers",
-				"link": "/speakers",
+				"link": "#",
 				"end": false
 			},
 			{
-				"name": "Apply to speak",
-				"link": "/apply-to-speak",
+				"name": "Apply as a speaker",
+				"link": "/apply-speaker",
 				"end": false
 			}
 		]
 	},
 	{
-		"name": "Awards & Media",
+		"name": "Media",
 		"multiple": true,
 		"links": [
 			{
 				"name": "Awards",
-				"link": "/awards",
+				"link": "#",
 				"end": false
 			},
 			{
 				"name": "Events and Media",
-				"link": "/event-media",
+				"link": "#",
 				"end": false
 			}
 		]

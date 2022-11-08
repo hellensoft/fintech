@@ -16,7 +16,18 @@ const Exhibitors: FC<IExhibitors> = () => (
 			<Swiper
 				modules={[Autoplay]}
 				loop={true}
-				slidesPerView={6}
+				// slidesPerView={6}
+                breakpoints={{
+                    576: {
+                      slidesPerView: 2,
+                    },
+                    768: {
+                      slidesPerView: 4,
+                    },
+                    1024: {
+                        slidesPerView: 6
+                    }
+                  }}
 				autoplay={{ delay: 2000 }}
 				fadeEffect={{
 					crossFade: true,
