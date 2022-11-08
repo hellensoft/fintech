@@ -135,7 +135,7 @@ const SideBar: FC<ISideBar> = () => {
 								))}
 								<Link
 									className="font-medium bg-bluePrimary w-full hover:bg-greenPrimary duration-300 py-2 px-6 text-center text-white"
-									to="/register"
+									to="/enquiry"
 								>
 									Register
 								</Link>

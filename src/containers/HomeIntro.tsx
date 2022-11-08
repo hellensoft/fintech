@@ -39,7 +39,7 @@ const HomeIntro: FC<IHomeIntro> = () => {
 							</p>
 							<Link
 								className="font-medium bg-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-12 rounded-md text-white"
-								to="/register"
+								to="/enquiry"
 							>
 								Register
 							</Link>
