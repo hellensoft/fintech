@@ -10,7 +10,7 @@ const Sponsers: FC<ISponsers> = () => {
 		<SectionWrapper>
 			<div className="py-24">
 				<h1 className="text-center text-4xl font-semibold text-blackPrimary">
-					Sponsers
+					Sponsors
 				</h1>
 				<div className="py-12">
 					<Tab.Group as="div" className="flex items-start space-x-12">
