@@ -12,7 +12,7 @@
 		"end": false
 	},
 	{
-		"name": "Sponser & Exhibit",
+		"name": "Sponsors & Exhibitors",
 		"multiple": true,
 		"links": [
 			{
@@ -21,23 +21,23 @@
 				"end": false
 			},
 			{
-				"name": "Download Prospectus",
+				"name": "Startup Zone",
 				"link": "#",
 				"end": false
 			},
 			{
-				"name": "Enquiry",
-				"link": "/enquiry",
+				"name": "Apply Sponsor/Exhibitor",
+				"link": "/apply-sponsor",
 				"end": false
 			}
 		]
 	},
 	{
-		"name": "Agenda/Speakers",
+		"name": "Agendas/Speakers",
 		"multiple": true,
 		"links": [
 			{
-				"name": "Agenda",
+				"name": "Agendas",
 				"link": "#",
 				"end": false
 			},

@@ -12,7 +12,6 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
 
 	const interestedOptions = [
 		"Speaking",
-		"Sponsoring and Exhibiting",
 		"Attending",
 		"Media pass",
 		"Other",

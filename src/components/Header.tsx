@@ -178,7 +178,7 @@ const Header: FC<IHeader> = ({ fixed }) => {
 							className="font-medium bg-bluePrimary hover:bg-greenPrimary duration-300 py-2 px-6 rounded-md text-white"
 							to="/enquiry"
 						>
-							Register
+							Enquire Now
 						</Link>
 					</div>
 				</div>
