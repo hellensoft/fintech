@@ -21,15 +21,15 @@ const HomeIntro: FC<IHomeIntro> = () => {
 			</video>
 			<div className="bg-blueTransparent">
 				<SectionWrapper>
-					<div className="max-w-[900px] mx-auto py-40">
+					<div className="max-w-[900px] mx-auto py-28 sm:py-40">
 						<div className="text-center">
-							<h1 className="text-xl font-semibold text-white">
+							<h1 className="text-lg sm:text-xl font-semibold text-white">
 								24th - 25th August 2023
 							</h1>
-							<h1 className="text-4xl md:text-5xl font-bold mt-4 text-white">
+							<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 text-white">
 								FinTech Festival Tanzania 2023
 							</h1>
-							<p className="my-4 mb-8 max-w-2xl mx-auto font-medium text-[#fffe]">
+							<p className="my-4 mb-8 text-sm xs:text-base max-w-2xl mx-auto font-medium text-[#fffe]">
 								Whether you are a start-up, technology company,
 								investor, financial institution, research
 								institute, or innovation professional, it will
@@ -41,7 +41,7 @@ const HomeIntro: FC<IHomeIntro> = () => {
 								className="font-medium bg-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-12 rounded-md text-white"
 								to="/enquiry"
 							>
-								Register
+								Inquire now
 							</Link>
 						</div>
 					</div>

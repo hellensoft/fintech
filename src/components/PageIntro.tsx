@@ -29,7 +29,7 @@ const PageIntro: FC<IPageIntro> = ({
 			<div className="bg-blueTransparent">
 				<SectionWrapper>
 					<div className="text-center py-24">
-						<h1 className="text-4xl text-white font-semibold">
+						<h1 className="text-2xl sm:text-4xl text-white font-semibold">
 							{title}
 						</h1>
 						{backLink && backText && currentText && (

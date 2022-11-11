@@ -51,10 +51,10 @@ const Forum: FC<IForum> = () => {
 		<div className="bg-bluePrimary">
 			<SectionWrapper>
 				<div className="py-24">
-					<h2 className="text-white font-semibold text-center mb-2 text-5xl">
+					<h2 className="text-white font-semibold text-center mb-4 text-3xl sm:text-4xl lg:text-5xl">
 						2022 Forum
 					</h2>
-					<p className="text-[#dddddd] font-medium mt-1 mb-12 max-w-[850px] text-center mx-auto">
+					<p className="text-[#dddddd] text-sm xs:text-base font-medium mt-1 mb-12 max-w-[850px] text-center mx-auto">
 						Fintech Festivals Tanzania 2023 would welcome over 3,000
 						international participants at the 3-day festival, the
 						vast majority being C-suite, Heads-of-Departments, key
@@ -70,10 +70,10 @@ const Forum: FC<IForum> = () => {
 									{index + 1}
 								</span>
 								<div className="flex flex-col items-start">
-									<h2 className="text-white font-semibold text-xl">
+									<h2 className="text-white font-semibold text-md sm:text-xl">
 										{data.title}
 									</h2>
-									<p className="text-[#dddddd] font-medium mt-1">
+									<p className="text-[#dddddd] text-sm sm:text-base font-medium mt-1">
 										{data.subTItle}
 									</p>
 								</div>

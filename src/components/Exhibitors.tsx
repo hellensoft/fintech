@@ -10,7 +10,7 @@ interface IExhibitors {}
 const Exhibitors: FC<IExhibitors> = () => (
 	<SectionWrapper>
 		<div className="py-24">
-			<h1 className="text-3xl text-bluePrimary font-semibold mb-4 text-center">
+			<h1 className="text-2xl sm:text-3xl text-bluePrimary font-semibold mb-4 text-center">
 				Exhibitors
 			</h1>
 			<Swiper
@@ -40,7 +40,7 @@ const Exhibitors: FC<IExhibitors> = () => (
 						index: Key | null | undefined
 					) => (
 						<SwiperSlide key={index}>
-							<div className="flex items-center justify-center h-28">
+							<div className="flex items-center px-8 sm:px-0 justify-center h-28">
 								<img
 									className=""
 									src={data.image}

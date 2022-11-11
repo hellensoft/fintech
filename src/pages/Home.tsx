@@ -28,7 +28,7 @@ const Home: FC<IHome> = () => {
 							Are You
 							<br /> A B2B FinTech Company?
 						</h1>
-						<p className="text-[#52576a] font-medium">
+						<p className="text-[#52576a] text-sm xs:text-base font-medium">
 							There are various choices with more than 70
 							sessions, 130+ speakers, and over 22 hours of
 							content. Get to hear from the Minister and the

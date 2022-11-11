@@ -15,7 +15,7 @@ const Footer: FC<IFooter> = () => {
 		<div className="bg-bluePrimary">
 			<SectionWrapper>
 				<div className="py-8 md:space-y-0 flex-col-reverse md:flex-row flex items-center justify-between">
-					<p className="text-base mt-4 md:mt-0 text-center md:text-start md:text-base text-white">
+					<p className="text-sm mt-4 md:mt-0 text-center md:text-start md:text-base text-white">
 						© 2022{" "}
 						<span className="font-semibold">
 							FintechFestivalTanzania2022

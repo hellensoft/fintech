@@ -32,12 +32,12 @@ const questions = [
 const WhySponser: FC<IWhySponser> = () => {
 	return (
 		<SectionWrapper>
-			<div className="py-28">
+			<div className="py-12 sm:py-28">
 				<div className="text-center mx-auto mb-12 max-w-[900px]">
-					<h1 className="text-3xl text-bluePrimary font-semibold mb-2">
+					<h1 className="text-2xl sm:text-3xl text-bluePrimary font-semibold mb-2">
 						WHY EXHIBITOR OR SPONSOR?
 					</h1>
-					<p className="text-grayText font-medium">
+					<p className="text-grayText text-sm sm:text-base font-medium">
 						This is an opportunity to become a partner and get
 						exposure to more than 3,000 execu- tives from across
 						Tanzania, Africa, and the entire World. Get in front of
@@ -55,13 +55,17 @@ const WhySponser: FC<IWhySponser> = () => {
 						>
 							{({ open }) => (
 								<>
-									<Disclosure.Button className="text-md text-bluePrimary w-full flex items-center justify-between font-medium">
+									<Disclosure.Button className="text-base xs:text-md text-bluePrimary w-full flex text-start items-center justify-between font-medium">
 										<span>{question.name}</span>
-										<FaChevronDown
-											className={`h-5 w-5 duration-100ro ${
-												open ? "rotate-180" : "rotate-0"
-											}`}
-										/>
+										<div>
+											<FaChevronDown
+												className={`h-3 xs:h-5 w-3 xs:w-5 duration-100 ${
+													open
+														? "rotate-180"
+														: "rotate-0"
+												}`}
+											/>
+										</div>
 									</Disclosure.Button>
 
 									<Transition
@@ -76,7 +80,7 @@ const WhySponser: FC<IWhySponser> = () => {
 											as="div"
 											className="border-t mt-2 pt-4"
 										>
-											<p className="text-grayText font-medium">
+											<p className="text-grayText text-sm sm:text-base font-medium">
 												{question.description}
 											</p>
 										</Disclosure.Panel>
