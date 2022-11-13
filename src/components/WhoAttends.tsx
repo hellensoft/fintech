@@ -95,7 +95,7 @@ const WhoAttends: FC<IWhoAttends> = () => {
 									style={{ backgroundColor: `${el.color}` }}
 								/>
 								<p className="text-xs xs:text-sm sm:text-base">
-									{el.name}
+									{el.name} {el.percentage}%
 								</p>
 							</div>
 						))}

@@ -1,9 +1,10 @@
 import { FC } from "react";
-import Exhibitors from "../components/Exhibitors";
+// import Exhibitors from "../components/Exhibitors";
 import Forum from "../components/Forum";
 import SectionWrapper from "../components/SectionWrapper";
-import Sponsers from "../components/Sponsers";
+// import Sponsers from "../components/Sponsers";
 import Statistics from "../components/Statistics";
+import TicketCards from "../components/TicketCards";
 import WhoAttends from "../components/WhoAttends";
 import HomeIntro from "../containers/HomeIntro";
 
@@ -42,10 +43,11 @@ const Home: FC<IHome> = () => {
 					</div>
 				</div>
 			</SectionWrapper>
-			<Sponsers />
+			{/* <Sponsers /> */}
+            <TicketCards />
 			<Forum />
 			<WhoAttends />
-			<Exhibitors />
+			{/* <Exhibitors /> */}
 		</div>
 	);
 };

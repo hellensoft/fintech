@@ -3,12 +3,14 @@
 		"name": "Home",
 		"link": "/",
 		"multiple": false,
+        "external": false,
 		"end": true
 	},
 	{
 		"name": "About",
 		"link": "/about-us",
 		"multiple": false,
+        "external": false,
 		"end": false
 	},
 	{
@@ -18,61 +20,59 @@
 			{
 				"name": "Sponsors & Exhibitors",
 				"link": "/sponsors-exhibitors",
+                "external": false,
 				"end": false
 			},
 			{
 				"name": "Startup Zone",
 				"link": "#",
+                "external": false,
 				"end": false
 			},
 			{
 				"name": "Apply Sponsor/Exhibitor",
 				"link": "/apply-sponsor",
+                "external": false,
 				"end": false
 			}
 		]
 	},
 	{
-		"name": "Agendas/Speakers",
+		"name": "Agendas & Speakers",
 		"multiple": true,
 		"links": [
 			{
 				"name": "Agendas",
 				"link": "#",
+                "external": false,
 				"end": false
 			},
 			{
 				"name": "Speakers",
 				"link": "#",
+                "external": false,
 				"end": false
 			},
 			{
 				"name": "Apply as a speaker",
 				"link": "/apply-speaker",
+                "external": false,
 				"end": false
 			}
 		]
 	},
 	{
-		"name": "Media",
-		"multiple": true,
-		"links": [
-			{
-				"name": "Awards",
-				"link": "#",
-				"end": false
-			},
-			{
-				"name": "Events and Media",
-				"link": "#",
-				"end": false
-			}
-		]
+		"name": "Awards",
+		"link": "https://awards.co.tz/",
+		"multiple": false,
+        "external": true,
+		"end": false
 	},
 	{
 		"name": "Contact",
 		"link": "/contact",
 		"multiple": false,
+        "external": false,
 		"end": false
 	}
 ]
