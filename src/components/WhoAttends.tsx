@@ -64,10 +64,10 @@ const WhoAttends: FC<IWhoAttends> = () => {
 	return (
 		<SectionWrapper>
 			<div className="my-24">
-				<h1 className="text-3xl text-bluePrimary font-semibold mb-4 text-center">
+				<h1 className="text-xl sm:text-3xl text-bluePrimary font-semibold mb-4 text-center">
 					WHO ATTENDS
 				</h1>
-				<p className="text-grayText">
+				<p className="text-grayText text-sm xs:text-base">
 					Everyone is invited to participate. Previous attendees
 					include a mix of entrepreneurs, senior financial services
 					executives, Technologists; data providers, venture
@@ -75,7 +75,7 @@ const WhoAttends: FC<IWhoAttends> = () => {
 					They came from Africa and Asia, espe- cially from the states
 					of Tanzania, South Africa, Uganda, Kenya, and Malawi.
 				</p>
-				<p className="text-grayText mt-3">
+				<p className="text-grayText text-sm xs:text-base mt-3">
 					The number of participants has been growing year by year,
 					and in 2023 we have ambi- tious targets to engage a large
 					number in the fintech ecosystem across East Africa.
@@ -95,7 +95,7 @@ const WhoAttends: FC<IWhoAttends> = () => {
 									style={{ backgroundColor: `${el.color}` }}
 								/>
 								<p className="text-xs xs:text-sm sm:text-base">
-									{el.name}
+									{el.name} {el.percentage}%
 								</p>
 							</div>
 						))}

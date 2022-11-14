@@ -15,10 +15,10 @@ const AboutUs: FC<IAboutUs> = () => {
 			<SectionWrapper>
 				<div className="py-16 md:py-20">
 					<div className="max-w-[787px] mx-auto text-center mb-8">
-						<h1 className="text-bluePrimary text-3xl font-semibold mb-4">
+						<h1 className="text-bluePrimary text-2xl sm:text-3xl font-semibold mb-4">
 							Team Members
 						</h1>
-						<p className="text-grayText text-medium">
+						<p className="text-grayText text-sm sm:text-base text-medium">
 							Our team comprises senior leaders in Financial
 							Services, Innovation and Media with solid expertise
 							in delivering compelling and memorable top-quality
@@ -35,10 +35,10 @@ const AboutUs: FC<IAboutUs> = () => {
 										alt={member.name}
 									/>
 								</div>
-								<h3 className="text-blackPrimary text-xl mt-3 font-semibold">
+								<h3 className="text-blackPrimary text-lg sm:text-xl mt-3 font-semibold">
 									{member.name}
 								</h3>
-								<p className="text-bluePrimary uppercase font-semibold text-sm">
+								<p className="text-bluePrimary uppercase font-semibold text-xs sm:text-sm">
 									{member.position}
 								</p>
 							</div>
@@ -46,7 +46,7 @@ const AboutUs: FC<IAboutUs> = () => {
 					</div>
 				</div>
 				<div className="mb-20 flex-col sm:flex-row space-y-6 sm:space-y-0 max-w-5xl flex items-center justify-between mx-auto border shadow-lg rounded-md py-8 px-8">
-					<h2 className="text-2xl xs:text-3xl text-blackPrimary font-semibold">
+					<h2 className="text-xl text-center sm:text-start xs:text-3xl text-blackPrimary font-semibold">
 						Become a member
 					</h2>
 					<Link

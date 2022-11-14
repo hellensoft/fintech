@@ -27,10 +27,10 @@ const ContactUs: FC<IContactUs> = () => {
 		<SectionWrapper>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-28">
 				<div>
-					<h1 className="text-3xl text-bluePrimary font-semibold">
+					<h1 className="text-2xl sm:text-3xl text-bluePrimary font-semibold">
 						Contact Info
 					</h1>
-					<p className="text-grayText font-medium mb-6">
+					<p className="text-grayText text-sm sm;text-base font-medium mb-6">
 						Please reach out for further information through:
 					</p>
 					<div className="space-y-6">
@@ -39,8 +39,9 @@ const ContactUs: FC<IContactUs> = () => {
 								key={index}
 								className="flex items-center space-x-4"
 							>
-								<contact.icon className="text-bluePrimary h-6 w-6" />
-								<p className="text-grayText font-medium">
+                                <div>
+								<contact.icon className="text-bluePrimary h-6 w-6" /></div>
+								<p className="text-grayText text-sm sm:text-base font-medium">
 									{contact.description}
 								</p>
 							</div>
@@ -78,7 +79,7 @@ const ContactUs: FC<IContactUs> = () => {
 									name="firstName"
 									type="text"
 									placeholder="First Name"
-									className="w-full p-2 border text-grayText focus:outline-none rounded"
+									className="w-full text-sm sm:text-base p-2 border text-grayText focus:outline-none rounded"
 								/>
 								<ErrorMessage name="firstName">
 									{(error) => (
@@ -93,7 +94,7 @@ const ContactUs: FC<IContactUs> = () => {
 									name="lastName"
 									type="text"
 									placeholder="Last Name"
-									className="w-full p-2 border text-grayText focus:outline-none rounded"
+									className="w-full text-sm sm:text-base p-2 border text-grayText focus:outline-none rounded"
 								/>
 								<ErrorMessage name="lastName">
 									{(error) => (
@@ -109,7 +110,7 @@ const ContactUs: FC<IContactUs> = () => {
 								name="email"
 								type="email"
 								placeholder="Email Address"
-								className="w-full p-2 border text-grayText focus:outline-none rounded"
+								className="w-full text-sm sm:text-base p-2 border text-grayText focus:outline-none rounded"
 							/>
 							<ErrorMessage name="email">
 								{(error) => (
@@ -124,7 +125,7 @@ const ContactUs: FC<IContactUs> = () => {
 								name="message"
 								as="textarea"
 								placeholder="Message"
-								className="w-full h-28 p-2 border text-grayText focus:outline-none rounded"
+								className="w-full text-sm sm:text-base h-28 p-2 border text-grayText focus:outline-none rounded"
 							/>
 							<ErrorMessage name="message">
 								{(error) => (

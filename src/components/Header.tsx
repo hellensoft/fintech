@@ -54,7 +54,7 @@ const Header: FC<IHeader> = ({ fixed }) => {
 			<SectionWrapper>
 				<div
 					className={`flex items-center justify-between ${
-						scrolled || fixed ? "py-2 2lg:py-4" : "py-6 2lg:py-8"
+						scrolled || fixed ? "py-2 2lg:py-4" : "py-2 sm:py-6 2lg:py-8"
 					} duration-200`}
 				>
 					<div>
@@ -76,7 +76,7 @@ const Header: FC<IHeader> = ({ fixed }) => {
 							<CgMenu className="text-blackPrimary h-7 w-7" />
 						)}
 					</button>
-					<div className="ml-auto space-x-8 hidden 2lg:flex items-center">
+					<div className="ml-auto space-x-5 2xl:space-x-8 hidden 2lg:flex items-center">
 						{navigations.map((nav, index) => (
 							<Fragment key={index}>
 								{nav.multiple ? (
@@ -97,7 +97,7 @@ const Header: FC<IHeader> = ({ fixed }) => {
 												>
 													<span>{nav.name}</span>
 													<BsChevronDown
-														className={`ml-2 duration-300 ${
+														className={`ml-1 duration-300 ${
 															open
 																? "rotate-180"
 																: "rotate-0"

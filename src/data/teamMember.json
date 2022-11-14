@@ -5,8 +5,8 @@
 		"image": "/images/deo-kiwale.jpg"
 	},
 	{
-		"name": "Anselm Misango",
-		"position": "Managing Director (JANDWAS' TECHNOLOGY)",
+		"name": "Ansel Missango",
+		"position": "CEO (Initia Nova Group Limited)",
 		"image": "/images/anslem.png"
 	},
 	{
@@ -16,7 +16,7 @@
 	},
 	{
 		"name": "Roshaan Kulpoo",
-		"position": "Executive Director (eGiftAfrica)",
+		"position": "Chairman (United Pay Ltd)",
 		"image": "/images/roshaan.png"
 	},
 	{
@@ -25,13 +25,18 @@
 		"image": "/images/muhammad.png"
 	},
 	{
-		"name": "Happiness Watimanywa",
-		"position": "Chapter Director Dar es Salaam (ACCA)",
-		"image": "/images/happiness.png"
+		"name": "Cynthia Mbari",
+		"position": "Relationship Manager (WYLDE International)",
+		"image": "/images/mbari.png"
 	},
 	{
 		"name": "Martin K. Awagah",
 		"position": "President (Ghana Fintech & Payment Association)",
 		"image": "/images/martin.png"
+	},
+	{
+		"name": "Eng. Dr Dennis Mwighusa",
+		"position": "President (Tanzania Fintech Association))",
+		"image": "/images/mwighusa.png"
 	}
 ]

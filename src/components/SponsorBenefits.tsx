@@ -27,10 +27,10 @@ const SponsorBenefits: FC<ISponsorBenefits> = () => {
 		<SectionWrapper>
 			<div className="py-24">
 				<div className="max-w-[850px] mb-12">
-					<h1 className="text-3xl font-semibold text-bluePrimary mb-2">
+					<h1 className="text-2xl sm:text-3xl font-semibold text-bluePrimary mb-2">
 						Sponsor Benefits
 					</h1>
-					<p className="text-blackPrimary font-medium">
+					<p className="text-grayText text-sm sm:text-base font-medium">
 						Partnering with us will place you at the centre of the
 						Tanzania and East Africa ecosys- tems. As a Sponsor,
 						your brand will be featured as an industry builder and
@@ -38,16 +38,16 @@ const SponsorBenefits: FC<ISponsorBenefits> = () => {
 						following physical & digital channels:
 					</p>
 				</div>
-				<div className="grid grid-cols-3 gap-12">
+				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12">
 					{benefits.map((benefit, index) => (
 						<div key={index}>
-							<div className="flex items-center space-x-2 mb-2">
-								<HiChevronDoubleRight className="text-bluePrimary w-6 h-6" />
-								<h3 className="text-xl font-semibold text-bluePrimary">
+							<div className="flex items-center space-x-1 xs:space-x-2 mb-2">
+								<HiChevronDoubleRight className="text-bluePrimary w-4 xs:w-6 h-4 xs:h-6" />
+								<h3 className="text-md sm:text-xl font-semibold text-bluePrimary">
 									{benefit.name}
 								</h3>
 							</div>
-							<p className='text-blackPrimary'>{benefit.description}</p>
+							<p className='text-blackPrimary text-sm sm:text-base'>{benefit.description}</p>
 						</div>
 					))}
 				</div>

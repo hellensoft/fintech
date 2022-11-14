@@ -1,18 +1,10 @@
-Pages 
-    -Home
-    -Sponser / Exhibit
-        -Sponsors & Exhibitors
-        -Download Prospectus
-        -Startup zone
-        -Opportunities
-    -Conference
-        -Agenda
-        -Keynote Theatre
-        -Track 1 - Payments
-        -Track 2 - Banking
-        -Track 3 - Fintech
-        -Speakers
-        -Apply to speak
-    -Buyers Programme
-    -Login
-    -Register
+Todo
+	-Home Page 
+		-Add pricing section (2 sections)
+		
+	-Apply sponsor and Exhibitor
+		-Add information according to (https://worldfintechshow.com/reserve-exhibition-space-exhibitor)
+	
+	-Replace media in the header navigation with awards
+	
+		
