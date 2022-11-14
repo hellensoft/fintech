@@ -447,8 +447,10 @@ const Enquiry: FC<IEnquiry> = () => {
 								</div>
 
 								<div className="py-8">
-									<h2 className='text-bluePrimary text-xl font-semibold mb-2'>Terms, conditions and privacy:</h2>
-									<p  className='text-grayText2'>
+									<h2 className="text-bluePrimary text-xl font-semibold mb-2">
+										Terms, conditions and privacy:
+									</h2>
+									<p className="text-grayText2">
 										Fintech may contact you from time to
 										time with updates and information about
 										our events, products and services that
@@ -458,13 +460,13 @@ const Enquiry: FC<IEnquiry> = () => {
 										at this event. Please see our privacy
 										policy for full details.
 									</p>
-									<label className='flex items-start my-4'>
+									<label className="flex items-start my-4">
 										<Field
 											type="checkbox"
 											name="acceptTerms"
 											className="rounded mt-1 mr-2 text-bluePrimary"
 										/>
-										<p className='text-grayText2'>
+										<p className="text-grayText2">
 											By continuing with the registration
 											you are confirming that you have
 											read, understand and accept our
