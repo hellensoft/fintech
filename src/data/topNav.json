@@ -63,7 +63,7 @@
 	},
 	{
 		"name": "Awards",
-		"link": "/apply-speaker",
+		"link": "https://awards.co.tz/",
 		"multiple": false,
         "external": true,
 		"end": false
