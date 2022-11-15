@@ -4,13 +4,12 @@ import SectionWrapper from "../components/SectionWrapper";
 import countryList from "react-select-country-list";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
+import ApplySponsorDetails from "../components/ApplySponserDetails";
 
 interface IApplySponsor {}
 
 const ApplySponsor: FC<IApplySponsor> = () => {
 	const countries = countryList().getData();
-
-	const interestedOptions = ["Sponsor", "Exhibitor"];
 
 	const hereOptions = [
 		"Attend another Fintech event",
@@ -47,11 +46,11 @@ const ApplySponsor: FC<IApplySponsor> = () => {
 				title="Apply as a Sponsor/Exhibitor"
 				description="Become a speaker"
 			/>
+            <ApplySponsorDetails />
 			<SectionWrapper>
 				<div className="py-24 max-w-5xl mx-auto">
 					<Formik
 						initialValues={{
-							interestedIn: "",
 							jobTitle: "",
 							country: "Tanzania, United Republic of",
 							companyName: "",
@@ -100,49 +99,6 @@ const ApplySponsor: FC<IApplySponsor> = () => {
 					>
 						{({ values }) => (
 							<Form className="grid grid-cols-1 gap-6">
-								{/* INTERESTED IN  */}
-								<div className="grid grid-cols-1 sm:grid-cols-[270px_1fr] lg:grid-cols-[350px_1fr] gap-2 sm:gap-4 items-center">
-									<label
-										className="text-grayText text-start sm:text-end"
-										htmlFor="interestedIn"
-									>
-										I am interested in the following:
-										<span className="text-bluePrimary ml-1">
-											*
-										</span>
-									</label>
-									<div>
-										<Field
-											id="interestedIn"
-											name="interestedIn"
-											as="select"
-											placeholder="Country"
-											className="w-full p-2 border text-grayText focus:outline-none rounded pr-10 bg-transparent"
-										>
-											<option value="">
-												Please select
-											</option>
-											{interestedOptions.map(
-												(interest, index) => (
-													<option
-														key={index}
-														value={interest}
-													>
-														{interest}
-													</option>
-												)
-											)}
-										</Field>
-										<ErrorMessage name="interestedIn">
-											{(error) => (
-												<p className="text-sm text-red-600 ml-2">
-													{error}
-												</p>
-											)}
-										</ErrorMessage>
-									</div>
-								</div>
-
 								{/* EMAIL ADDRESS */}
 
 								<div className="grid grid-cols-1 sm:grid-cols-[270px_1fr] lg:grid-cols-[350px_1fr] gap-2 sm:gap-4 items-center">

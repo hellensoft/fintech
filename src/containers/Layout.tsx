@@ -9,11 +9,11 @@ interface ILayout {
 }
 
 const Layout: FC<ILayout> = ({ children }) => {
-	const location = useLocation();
+	const { pathname } = useLocation();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, [location]);
+	}, [pathname]);
 
 	return (
 		<div className="relative">
