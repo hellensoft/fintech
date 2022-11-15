@@ -1,7 +1,5 @@
 Todo
     -Home Page
-        -Happening
-        -Take the stage
         -Who will meet
 		
 	-Apply sponsor and Exhibitor

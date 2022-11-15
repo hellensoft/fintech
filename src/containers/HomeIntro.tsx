@@ -39,13 +39,13 @@ const HomeIntro: FC<IHomeIntro> = () => {
 							</p>
 							<div className="space-x-4">
 								<Link
-									className="font-medium bg-transparent border-white border hover:bg-bluePrimary duration-300 py-3 px-12 text-white"
+									className="hidden xs:inline-block font-medium bg-transparent border-white border hover:bg-bluePrimary duration-300 py-3 px-4 sm:px-12 text-white"
 									to="/enquiry"
 								>
 									Become a Sponsor
 								</Link>
 								<Link
-									className="font-medium bg-greenPrimary border border-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-12 text-white"
+									className="font-medium bg-greenPrimary border border-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-6 xs:px-4 sm:px-12 text-white"
 									to="/enquiry"
 								>
 									Become a Speaker
