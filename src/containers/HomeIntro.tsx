@@ -24,7 +24,7 @@ const HomeIntro: FC<IHomeIntro> = () => {
 					<div className="max-w-[900px] mx-auto py-28 sm:py-40">
 						<div className="text-center">
 							<h1 className="text-lg sm:text-xl font-semibold text-white">
-								23th - 25th August 2023
+								23<sup>th</sup> - 25<sup>th</sup> August 2023
 							</h1>
 							<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 text-white">
 								FinTech Festival Tanzania 2023
@@ -37,12 +37,20 @@ const HomeIntro: FC<IHomeIntro> = () => {
 								ecosystem and enhancing collaboration between
 								Tanzania & Global FinTech.
 							</p>
-							<Link
-								className="font-medium bg-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-12 rounded-md text-white"
-								to="/enquiry"
-							>
-								Inquire now
-							</Link>
+							<div className="space-x-4">
+								<Link
+									className="font-medium bg-transparent border-white border hover:bg-bluePrimary duration-300 py-3 px-12 text-white"
+									to="/enquiry"
+								>
+									Become a Sponsor
+								</Link>
+								<Link
+									className="font-medium bg-greenPrimary border border-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-12 text-white"
+									to="/enquiry"
+								>
+									Become a Speaker
+								</Link>
+							</div>
 						</div>
 					</div>
 				</SectionWrapper>

@@ -1,10 +1,10 @@
 Todo
-	-Home Page 
-		-Add pricing section (2 sections)
+    -Home Page
+        -Happening
+        -Take the stage
+        -Who will meet
 		
 	-Apply sponsor and Exhibitor
-		-Add information according to (https://worldfintechshow.com/reserve-exhibition-space-exhibitor)
-	
-	-Replace media in the header navigation with awards
+		-Should look exaclty like (https://worldfintechshow.com/reserve-exhibition-space-exhibitor)
 	
 		
