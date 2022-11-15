@@ -2,6 +2,7 @@ import { FC } from "react";
 // import Exhibitors from "../components/Exhibitors";
 import Forum from "../components/Forum";
 import SectionWrapper from "../components/SectionWrapper";
+import SponsorPrices from "../components/SponsorPrices";
 // import Sponsers from "../components/Sponsers";
 import Statistics from "../components/Statistics";
 import TicketCards from "../components/TicketCards";
@@ -45,6 +46,7 @@ const Home: FC<IHome> = () => {
 			</SectionWrapper>
 			{/* <Sponsers /> */}
             <TicketCards />
+            <SponsorPrices />
 			<Forum />
 			<WhoAttends />
 			{/* <Exhibitors /> */}
