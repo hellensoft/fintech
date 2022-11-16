@@ -8,7 +8,7 @@ interface ISponsorPrices {}
 
 const prices = [
 	{
-		name: "Exhibitor",
+		name: "EXHIBITOR",
 		price: 4000,
 	},
 	{
@@ -36,7 +36,7 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 										US$ {price.price}
 									</h1>
 									<Link
-										className="font-medium bg-bluePrimary hover:bg-greenPrimary duration-300 py-2 px-6 rounded-md text-white"
+										className="font-medium bg-bluePrimary hover:bg-greenPrimary duration-300 py-2 px-6  text-white"
 										to="/enquiry"
 									>
 										Reserve space
@@ -80,7 +80,7 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 							</div>
 							<div className="mt-1">
 								<p className="text-grayText text-sm xs:text-base">
-									ETickets:{" "}
+									Tickets:{" "}
 									<span className="text-greenPrimary font-semibold">
 										2
 									</span>

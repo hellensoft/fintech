@@ -67,7 +67,10 @@ const TicketCards = () => {
 											</h3>
 										</div>
 										<div className="mt-4 flex items-baseline text-6xl font-bold tracking-tight">
-											${tier.priceMonthly}
+											${tier.priceMonthly}{" "}
+											<span className="text-base font-normal -mt-4 ml-2">
+												/ 3 days
+											</span>
 										</div>
 										<p className="mt-5 text-lg text-gray-500">
 											{tier.description}
@@ -117,7 +120,10 @@ const TicketCards = () => {
 									</h3>
 								</div>
 								<div className="mt-4 text-lg text-gray-600">
-                                Showcase your brand, thought leadership, launch your latest products and win business at the ultimate platform for fintech innovation.
+									Showcase your brand, thought leadership,
+									launch your latest products and win business
+									at the ultimate platform for fintech
+									innovation.
 								</div>
 							</div>
 							<div className="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
