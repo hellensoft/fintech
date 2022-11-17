@@ -48,13 +48,13 @@ const Home: FC<IHome> = () => {
 				</div>
 			</SectionWrapper>
 			{/* <Sponsers /> */}
-			<TakeTheStage />
-            <Happening />
+			<Forum />
 			<TicketCards />
 			<SponsorPrices />
-			<Forum />
+			<Happening />
+			<TakeTheStage />
 			<WhoAttends />
-            <WhoWillMeet />
+			<WhoWillMeet />
 			{/* <Exhibitors /> */}
 		</div>
 	);
