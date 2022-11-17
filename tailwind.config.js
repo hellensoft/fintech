@@ -19,6 +19,7 @@ module.exports = {
 				grayText2: "#666666",
 				blueTransparent: "#29388dc9",
 				greenPrimary: "#09793d",
+				greenTrans: "#09793ddd",
 				yellowPrimary: "#ffb703",
 			},
 		},

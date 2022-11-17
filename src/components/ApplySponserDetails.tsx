@@ -97,7 +97,7 @@ const ApplySponsorDetails: FC<IApplySponsorDetails> = () => {
 								<p className="text-grayText text-sm xs:text-base">
 									Branding:
 								</p>
-								<ul className="list-disc ml-4 mt-2 grid grid-cols-2 gap-x-20 gap-y-2">
+								<ul className="list-disc ml-4 mt-2 grid sm:grid-cols-2 gap-x-20 gap-y-2">
 									<li className="text-grayText text-sm xs:text-base">
 										Your company logo with a hyperlink to
 										your website will appear on the event

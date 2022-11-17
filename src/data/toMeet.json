@@ -1,0 +1,184 @@
+[
+	{
+		"title": "FINTECH",
+		"items": [
+			{
+				"name": "C-LEVEL EXECUTIVES",
+				"items": [
+					"Chief Executive Officers & Founders",
+					"Chief Financial Officers",
+					"Chief Information Officers (CIOs)",
+					"Chief Technology Officers (CTOs)",
+					"Chief Information Security Officers (CISOs)",
+					"Chief Innovation Officers (CINOs)",
+					"Chief Digital Officers (CDOs)",
+					"Chief Risk Officers (CROs)",
+					"Chief Operating Officers (COOs)",
+					"Managing Directors"
+				]
+			},
+			{
+				"name": "MANAGEMENT LEVEL EXECUTIVES",
+				"items": [
+					"VPs of Finance",
+					"Heads of Financial Regulatory",
+					"Heads of Customer Experience / Engagement",
+					"Directors of Finance",
+					"Heads of Payments",
+					"Heads of Digital Banking",
+					"Heads of Finance",
+					"Heads of Retail Banking",
+					"Heads of Mobile Banking",
+					"Finance Managers",
+					"Heads of Policy",
+					"Heads of Product Development",
+					"Financial Controllers",
+					"Heads of Strategy",
+					"Private & Institutional Investors",
+					"Heads of Digital Transformation",
+					"Heads of Research and Development",
+					"Directors of Cloud",
+					"Heads of Anti Money Laundering",
+					"Heads of IT & Infrastructure",
+					"Heads of Mobile Banking",
+					"Heads of Information Security",
+					"Heads of Insurance",
+					"Heads of Customer Experience",
+					"Heads of Operations",
+					"Treasury Managers",
+					"Heads of Compliance",
+					"Heads of Risk Management",
+					"Accountants"
+				]
+			},
+			{
+				"name": "INDUSTRY SECTORS",
+				"items": [
+					"Government",
+					"Banking Infrastructure",
+					"Adtech",
+					"SME Financial Institutions",
+					"Legacy Banks",
+					"Postal Services",
+					"Private Fundraising",
+					"Insurance",
+					"Retail – Online Shopping sites / Ecommerce",
+					"Personal Finance & Treasury Management",
+					"Telecom",
+					"Utilities"
+				]
+			}
+		]
+	},
+	{
+		"title": "BLOCKCHAIN",
+		"items": [
+			{
+				"name": "ATTENDEE PROFILE",
+				"items": [
+					"CEO / Founders",
+					"Heads of Digital Innovation",
+					"Heads of Analytics",
+					"Chief Information Officers",
+					"Heads of Blockchain",
+					"Chief Product Developers",
+					"Chief Innovation Officers",
+					"Heads of Crypto",
+					"Blockchain Solution Architect",
+					"Chief Technology Officers",
+					"Heads of Metaverse",
+					"Blockchain Quality Engineer",
+					"Chief Digital Officers",
+					"Investors and HNIs",
+					"Blockchain Software Engineer",
+					"Chief Creative Officers",
+					"Global Head of Digital",
+					"Blockchain Legal Consultant",
+					"Chief Business Officers",
+					"Heads of Digital Transformation",
+					"Cryptocurrency regulator",
+					"Chief Operating Officers",
+					"Directors of Metaverse Engineering",
+					"Blockchain Developers",
+					"Directors (Technical)",
+					"Crypto Influencers",
+					"Fintech Professionals",
+					"VPs (Technical)",
+					"Managing Partners/ Directors"
+				]
+			},
+			{
+				"name": "INDUSTRY SECTORS",
+				"items": [
+					"Banking",
+					"Real Estate",
+					"Food and Beverages",
+					"Cybersecurity",
+					"Manufacturing",
+					"Metaverse",
+					"Supply Chain Management",
+					"Aerospace & Defense",
+					"Gaming",
+					"Healthcare",
+					"Hospitality",
+					"Media & Entertainment",
+					"Government",
+					"Infrastructure & Energy",
+					"Agriculture",
+					"Insurance",
+					"Construction and Architecture",
+					"Education",
+					"Transportation",
+					"Oil & Gas",
+					"Human Resources",
+					"Cloud Storage",
+					"Retail & E-commerce",
+					"Venture Capitalist",
+					"Cloud Storage",
+					"Enterprise Tech"
+				]
+			}
+		]
+	},
+	{
+		"title": "SOLUTION CATEGORIES",
+		"items": [
+			{
+				"name": "SOLUTION CATEGORIES",
+				"items": [
+					"Banking Solutions",
+					"IoT Based Applications",
+					"Banks",
+					"Network Solutions / Communication",
+					"Blockchain/ DLT Solutions",
+					"Online Trading Software",
+					"Financial Institutions",
+					"Payment Gateways",
+					"Business Continuity and Disaster Recovery",
+					"POS Machines and Payment Solutions",
+					"Card Issuance and Management",
+					"Risk Management",
+					"Cloud Solutions",
+					"IRobotic Process Automation",
+					"Core Banking Solutions",
+					"Software and Solutions",
+					"Cyber Security",
+					"Taxation Solutions",
+					"Data Analytics",
+					"Threat Management Solutions",
+					"Data Centers",
+					"Transactional Platforms",
+					"Digital Lending",
+					"Digital Payment",
+					"Accounting and Auditing Solutions",
+					"Document Storage Solutions",
+					"E - Payment Solutions",
+					"E - Wallets",
+					"E-commerce Solutions",
+					"Forex Software",
+					"Insurance Solutions"
+				]
+			}
+		]
+	}
+]

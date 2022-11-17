@@ -51,7 +51,7 @@ const Happening: FC<IHappening> = () => {
 									backgroundImage: `url(${happen.bgImage})`,
 								}}
 							>
-								<div className="bg-greenPrimary w-full h-full min-h-[380px] md:min-h-[540px] translate-y-[80%] md:translate-y-[83%] group-hover:translate-y-0 duration-200 p-6 flex flex-col justify-between">
+								<div className="bg-greenTrans w-full h-full min-h-[380px] md:min-h-[540px] translate-y-[75%] md:translate-y-[83%] group-hover:translate-y-0 duration-200 p-6 flex flex-col justify-between">
 									<div className="">
 										<h2 className="text-lg md:text-xl h-[70px] max-w-[160px] text-white font-semibold">
 											{happen.title}
