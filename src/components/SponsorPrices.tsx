@@ -10,10 +10,12 @@ const prices = [
 	{
 		name: "EXHIBITOR",
 		price: 4000,
+		description: "*2500 USD for 2 sq mt"
 	},
 	{
-		name: "*STARTUP EXHIBITOR",
+		name: "STARTUP EXHIBITOR",
 		price: 3000,
+		description: ""
 	},
 ];
 
@@ -35,6 +37,9 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 									<h1 className="font-semibold text-blackPrimary text-2xl">
 										US$ {price.price}
 									</h1>
+									<p className="font-medium text-blackPrimary text-xl">
+										<em>{price.description} </em>
+									</p>
 									<Link
 										className="font-medium bg-bluePrimary hover:bg-greenPrimary duration-300 py-2 px-6  text-white"
 										to="/enquiry"
