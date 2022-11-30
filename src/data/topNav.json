@@ -38,11 +38,11 @@
 		]
 	},
 	{
-		"name": "Agendas & Speakers",
+		"name": "Agenda & Speakers",
 		"multiple": true,
 		"links": [
 			{
-				"name": "Agendas",
+				"name": "Agenda",
 				"link": "#",
                 "external": false,
 				"end": false
