@@ -27,7 +27,7 @@ const ContactUs: FC<IContactUs> = () => {
 		<SectionWrapper>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-28">
 				<div>
-					<h1 className="text-2xl  text-bluePrimary font-semibold">
+					<h1 className="text-4xl  text-bluePrimary font-semibold">
 						Contact Us
 					</h1>
 					<p className="text-grayText text-sm sm;text-base font-medium mb-6">

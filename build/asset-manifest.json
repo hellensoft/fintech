@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hellensoft/fintech/static/css/main.70799b60.css",
+    "main.js": "/hellensoft/fintech/static/js/main.a5937edc.js",
+    "index.html": "/hellensoft/fintech/index.html",
+    "main.70799b60.css.map": "/hellensoft/fintech/static/css/main.70799b60.css.map",
+    "main.a5937edc.js.map": "/hellensoft/fintech/static/js/main.a5937edc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70799b60.css",
+    "static/js/main.a5937edc.js"
+  ]
+}
