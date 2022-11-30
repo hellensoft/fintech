@@ -4,7 +4,7 @@
 		"description": "As the world slowly returns to normal, this physical event will be a refreshing experience featuring multiple networking sessions.",
 		"bgImage": "/images/fintech.png",
 		"host": {
-			//"image": "/images/pesapal-logo.png",
+			/*"image": "/images/pesapal-logo.png"*/
 			"description": "We had more than thirty five leads in the first ninety minutes of the conference."
 		}
 	},
@@ -13,7 +13,7 @@
 		"description": "Hear from global experts on the best practices in fintech and blockchain based applications, within the rapidly changing financial services sector.",
 		"bgImage": "/images/fintech.png",
 		"host": {
-			//"image": "/images/pesapal-logo.png",
+			/*"image": "/images/pesapal-logo.png",*/
 			"description": "Really brilliant line-up of participants!"
 		}
 	},
@@ -22,7 +22,7 @@
 		"description": "Learn from early adopters and tech innovators about how fintech is impacting the organisations, their business functions and consumers at large.",
 		"bgImage": "/images/fintech.png",
 		"host": {
-			//"image": "/images/pesapal-logo.png",
+			/*"image": "/images/pesapal-logo.png",*/
 			"description": "We got to meet some unique solutions providers here!"
 		}
 	},
@@ -31,7 +31,7 @@
 		"description": "Explore cutting-edge technology innovations to help build leaner processes, develop innovative products, improve security and automate tasks.",
 		"bgImage": "/images/fintech.png",
 		"host": {
-			//"image": "/images/pesapal-logo.png",
+			/*"image": "/images/pesapal-logo.png",*/
 			"description": "The quality of delegates is super notch!"
 		}
 	},
@@ -40,7 +40,7 @@
 		"description": "Witness interactive discussion, debates and fire-side charts conducted by some of the greatest minds in fintech and blockchain space",
 		"bgImage": "/images/fintech.png",
 		"host": {
-			//"image": "/images/pesapal-logo.png",
+			/*"image": "/images/pesapal-logo.png",*/
 			"description": "The event has right decision makers and right policy makers."
 		}
 	}
