@@ -14,7 +14,7 @@ const prices = [
 	},
 	{
 		name: "STARTUP EXHIBITOR",
-		price: 3000,
+		price: 1500,
 		description: ""
 	},
 ];
