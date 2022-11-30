@@ -65,11 +65,7 @@ const Happening: FC<IHappening> = () => {
 										<p className="text-sm md:text-base text-gray-200">
 											{happen.host.description}
 										</p>
-										<img
-											className="h-12 w-auto"
-											src={happen.host.image}
-											alt={happen.title}
-										/>
+										
 									</div>
 								</div>
 								{/* <p className="text-[74px] leading-[64px] font-semibold text-greenPrimary">
