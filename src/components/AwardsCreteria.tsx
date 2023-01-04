@@ -16,7 +16,7 @@ const AwardsCreteria: FC<IAwardsCreteria> = () => {
 					{awardList.map((award, index) => (
 						<div
 							key={index}
-							className="rounded-md shadow-lg border p-6 flex flex-col justify-between min-h-[250px]"
+							className="rounded-lg shadow-lg border p-6 flex flex-col justify-between min-h-[250px]"
 						>
 							<h3 className="text-xl text-blackPrimary font-semibold">
 								{award.title}

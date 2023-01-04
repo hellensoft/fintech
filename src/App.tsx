@@ -9,8 +9,8 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import SponsorsExhibitors from "./pages/SponsorsExhibitors";
 import Enquiry from "./pages/Enquiry";
-// import Awards from "./pages/Award";
-// import SingleAward from "./pages/SingleAward";
+import Awards from "./pages/Award";
+import SingleAward from "./pages/SingleAward";
 import ApplySpeaker from "./pages/ApplySpeaker";
 import ApplySponsor from "./pages/ApplySponsor";
 
@@ -32,7 +32,8 @@ const App: FC<IApp> = () => {
 						<Route path="/about-us" element={<AboutUs />} />
 						<Route path="/apply-speaker" element={<ApplySpeaker />} />
 						<Route path="/apply-sponsor" element={<ApplySponsor />} />
-						{/* <Route path="/awards/:id" element={<SingleAward />} /> */}
+						<Route path="/awards" element={<Awards />} />
+						<Route path="/awards/:id" element={<SingleAward />} />
 						<Route path="/enquiry" element={<Enquiry />} />
 						<Route
 							path="/sponsors-exhibitors"
