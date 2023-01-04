@@ -10,7 +10,7 @@ const SponsorsExhibitors: FC<ISponsorsExhibitors> = () => {
 		<div>
 			<PageIntro
 				title="Sponsers and Exhibitors"
-				description="Get in front of the FinTech community"
+				description="Become a Sponsor or Exhibitor"
 			/>
 			<SponsorBenefits />
             <WhySponser />

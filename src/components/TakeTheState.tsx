@@ -15,7 +15,7 @@ const TakeTheStage: FC<ITakeTheStage> = () => {
 					<h2 className="text-gray-200 text-md md:text-xl my-2">Apply to become a speaker at the show</h2>
 					<p className="text-gray-300 text-sm md:text-base mb-8">
 						Interested to take the stage as a keynote speaker or a
-						panelist at World Fintech Show?
+						panelist at Fintech Festival Tanzania?
 					</p>
 					<Link
 						className="font-medium bg-greenPrimary border border-greenPrimary hover:bg-bluePrimary duration-300 py-2 px-12 text-white"

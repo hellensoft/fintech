@@ -9,8 +9,8 @@ interface ISponsorPrices {}
 const prices = [
 	{
 		name: "EXHIBITOR",
-		price: 4000,
-		description: "*2500 USD for 2 sq mt"
+		price: "4000 (3m*3m)",
+		description: "USD 2500 (2m*2m)"
 	},
 	{
 		name: "STARTUP EXHIBITOR",
@@ -35,9 +35,9 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 										{price.name}
 									</h3>
 									<h1 className="font-semibold text-blackPrimary text-2xl">
-										US$ {price.price}
+										USD {price.price}
 									</h1>
-									<p className="font-medium text-blackPrimary text-xl">
+									<p className="font-regular text-blackPrimary text-xl">
 										<em>{price.description} </em>
 									</p>
 									<Link
