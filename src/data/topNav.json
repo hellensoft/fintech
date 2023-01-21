@@ -8,10 +8,21 @@
     },
     {
         "name": "About",
-        "link": "/about-us",
-        "multiple": false,
-        "external": false,
-        "end": false
+        "multiple": true,
+        "links": [
+            {
+                "name": "Fintech Festival",
+                "link": "/about/fintech-festival",
+                "external": false,
+                "end": false
+            },
+            {
+                "name": "Our Team",
+                "link": "/about/our-team",
+                "external": false,
+                "end": false
+            }
+        ]
     },
     {
         "name": "Sponsors & Exhibitors",

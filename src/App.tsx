@@ -13,37 +13,49 @@ import Awards from "./pages/Award";
 import SingleAward from "./pages/SingleAward";
 import ApplySpeaker from "./pages/ApplySpeaker";
 import ApplySponsor from "./pages/ApplySponsor";
+import AboutFintechPage from "./pages/AboutFintect";
 
 interface IApp {}
 
 const App: FC<IApp> = () => {
-	useEffect(() => {
-		AOS.init();
-		AOS.refresh();
-	}, []);
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
 
-	return (
-		<RecoilRoot>
-			<BrowserRouter>
-				<Layout>
-					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/contact" element={<Contact />} />
-						<Route path="/about-us" element={<AboutUs />} />
-						<Route path="/apply-speaker" element={<ApplySpeaker />} />
-						<Route path="/apply-sponsor" element={<ApplySponsor />} />
-						<Route path="/awards" element={<Awards />} />
-						<Route path="/awards/:id" element={<SingleAward />} />
-						<Route path="/enquiry" element={<Enquiry />} />
-						<Route
-							path="/sponsors-exhibitors"
-							element={<SponsorsExhibitors />}
-						/>
-					</Routes>
-				</Layout>
-			</BrowserRouter>
-		</RecoilRoot>
-	);
+    return (
+        <RecoilRoot>
+            <BrowserRouter>
+                <Layout>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/contact" element={<Contact />} />
+                        {/* <Route path="/about-us" element={<AboutUs />} /> */}
+                        <Route
+                            path="/about/fintech-festival"
+                            element={<AboutFintechPage />}
+                        />
+                        <Route path="/about/our-team" element={<AboutUs />} />
+                        <Route
+                            path="/apply-speaker"
+                            element={<ApplySpeaker />}
+                        />
+                        <Route
+                            path="/apply-sponsor"
+                            element={<ApplySponsor />}
+                        />
+                        <Route path="/awards" element={<Awards />} />
+                        <Route path="/awards/:id" element={<SingleAward />} />
+                        <Route path="/enquiry" element={<Enquiry />} />
+                        <Route
+                            path="/sponsors-exhibitors"
+                            element={<SponsorsExhibitors />}
+                        />
+                    </Routes>
+                </Layout>
+            </BrowserRouter>
+        </RecoilRoot>
+    );
 };
 
 export default App;
