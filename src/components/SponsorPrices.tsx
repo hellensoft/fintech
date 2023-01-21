@@ -25,7 +25,7 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 			<div className="pl-[calc(((100vw-1280px)/2))] py-20 bg-bluePrimary">
 				<div className="px-4">
 					<div className="lg:max-w-[360px] mx-auto space-y-12">
-						<div className="space-y-12 md:space-x-0 items-center lg:space-y-12 flex flex-col md:flex-row lg:flex-col space-x-0 md:space-x-4 lg:space-x-0">
+						<div className="space-y-12 items-center lg:space-y-12 flex flex-col md:flex-row lg:flex-col space-x-0 md:space-x-4 lg:space-x-0">
 							{prices.map((price, index) => (
 								<div
 									className="bg-white max-w-[360px] w-full mx-auto p-8 flex flex-col items-center rounded-lg space-y-2"

@@ -1,6 +1,8 @@
 import { FC } from "react";
+import OtherPricingDetails from "../components/OtherPricingDetails";
 import PageIntro from "../components/PageIntro";
 import PartnerPackage from "../components/PartnerPackage";
+import PlatinumSponser from "../components/PlatinumSponser";
 import SponsorBenefits from "../components/SponsorBenefits";
 import WhySponser from "../components/WhySponser";
 
@@ -14,7 +16,9 @@ const SponsorsExhibitors: FC<ISponsorsExhibitors> = () => {
                 description="Become a Sponsor or Exhibitor"
             />
             <SponsorBenefits />
+            <PlatinumSponser />
             <PartnerPackage />
+            <OtherPricingDetails />
             <WhySponser />
         </div>
     );

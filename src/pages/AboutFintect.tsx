@@ -1,7 +1,6 @@
 import { FC } from "react";
 import PageIntro from "../components/PageIntro";
 import AboutFintech from "../components/AboutFintech";
-// import SectionWrapper from "../components/SectionWrapper";
 
 interface IAboutFintechPage {}
 
