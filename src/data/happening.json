@@ -1,47 +1,42 @@
 [
-	{
-		"title": "Bussiness Networking",
-		"description": "As the world slowly returns to normal, this physical event will be a refreshing experience featuring multiple networking sessions.",
-		"bgImage": "/images/fintech.png",
-		"host": {
-			
-			"description": "We had more than thirty five leads in the first ninety minutes of the conference."
-		}
-	},
-	{
-		"title": "Insight Session",
-		"description": "Hear from global experts on the best practices in fintech and blockchain based applications, within the rapidly changing financial services sector.",
-		"bgImage": "/images/fintech.png",
-		"host": {
-			
-			"description": "Really brilliant line-up of participants!"
-		}
-	},
-	{
-		"title": "Technology use-cases",
-		"description": "Learn from early adopters and tech innovators about how fintech is impacting the organisations, their business functions and consumers at large.",
-		"bgImage": "/images/fintech.png",
-		"host": {
-		
-			"description": "We got to meet some unique solutions providers here!"
-		}
-	},
-	{
-		"title": "Exihibition",
-		"description": "Explore cutting-edge technology innovations to help build leaner processes, develop innovative products, improve security and automate tasks.",
-		"bgImage": "/images/fintech.png",
-		"host": {
-		
-			"description": "The quality of delegates is super notch!"
-		}
-	},
-	{
-		"title": "Panel Discussions",
-		"description": "Witness interactive discussion, debates and fire-side charts conducted by some of the greatest minds in fintech and blockchain space",
-		"bgImage": "/images/fintech.png",
-		"host": {
-		
-			"description": "The event has right decision makers and right policy makers."
-		}
-	}
+    {
+        "title": "Bussiness Networking",
+        "description": "As the world slowly returns to normal, this physical event will be a refreshing experience featuring multiple networking sessions.",
+        "bgImage": "/images/photo_2023-01-28_11-27-29.jpeg",
+        "host": {
+            "description": "We had more than thirty five leads in the first ninety minutes of the conference."
+        }
+    },
+    {
+        "title": "Insight Session",
+        "description": "Hear from global experts on the best practices in fintech and blockchain based applications, within the rapidly changing financial services sector.",
+        "bgImage": "/images/fintech.png",
+        "host": {
+            "description": "Really brilliant line-up of participants!"
+        }
+    },
+    {
+        "title": "Technology use-cases",
+        "description": "Learn from early adopters and tech innovators about how fintech is impacting the organisations, their business functions and consumers at large.",
+        "bgImage": "/images/photo_2023-01-28_11-27-26.jpeg",
+        "host": {
+            "description": "We got to meet some unique solutions providers here!"
+        }
+    },
+    {
+        "title": "Exihibition",
+        "description": "Explore cutting-edge technology innovations to help build leaner processes, develop innovative products, improve security and automate tasks.",
+        "bgImage": "/images/photo_2023-01-28_11-27-20.jpeg",
+        "host": {
+            "description": "The quality of delegates is super notch!"
+        }
+    },
+    {
+        "title": "Panel Discussions",
+        "description": "Witness interactive discussion, debates and fire-side charts conducted by some of the greatest minds in fintech and blockchain space",
+        "bgImage": "/images/photo_2023-01-28_11-27-34.jpeg",
+        "host": {
+            "description": "The event has right decision makers and right policy makers."
+        }
+    }
 ]

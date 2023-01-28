@@ -23,7 +23,7 @@ const Home: FC<IHome> = () => {
 				<div className="py-32 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 content-center items-center">
 					<div>
 						<img
-							src="/images/fintech.png"
+							src="/images/photo_2023-01-28_11-27-26.jpeg"
 							className="rounded-tl-[50px] rounded-br-[50px]"
 							alt="fintech"
 						/>

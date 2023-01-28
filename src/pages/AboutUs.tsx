@@ -41,7 +41,7 @@ const AboutUs: FC<IAboutUs> = () => {
                         </div>
                         <div>
                             <img
-                                src="/images/fintech.png"
+                                src="/images/photo_2023-01-28_11-27-26.jpeg"
                                 className="rounded-tl-[50px] rounded-br-[50px]"
                                 alt="fintech"
                             />

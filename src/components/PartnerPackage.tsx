@@ -133,7 +133,7 @@ const PartnerPackage = () => {
                                 className={`border-t border-gray-200 px-0 sm:px-4 flex justify-end`}
                             >
                                 <td key={tier.name} className="px-6 pt-5">
-                                    <p  className="text-end">
+                                    <p className="text-end">
                                         <span className="text-xl font-semibold tracking-tight text-gray-900">
                                             ${tier.price}
                                         </span>
@@ -204,9 +204,12 @@ const PartnerPackage = () => {
                                     Choose your plan
                                 </th>
                                 {tiers.map((tier) => (
-                                    <td key={tier.name} className="px-6 pt-5">
+                                    <td
+                                        key={tier.name}
+                                        className="px-6 pt-5 text-center"
+                                    >
                                         <p>
-                                            <span className="text-4xl font-semibold tracking-tight text-gray-900">
+                                            <span className="text-2xl font-semibold tracking-tight text-gray-900">
                                                 ${tier.price}
                                             </span>
                                         </p>
@@ -215,6 +218,58 @@ const PartnerPackage = () => {
                             </tr>
                         </tfoot>
                     </table>
+                </div>
+                <div className="space-y-2 mt-16">
+                    <p className="text-blackPrimary font-medium text-sm sm:text-base">
+                        <span className="text-bluePrimary font-semibold">
+                            Note:
+                        </span>{" "}
+                        all prices exclude VAT at 18%
+                    </p>
+                    <p className="text-blackPrimary font-medium text-sm sm:text-base">
+                        *Includes multiplatform distribution to ca. 8,000
+                        recipients
+                    </p>
+                    <p className="text-blackPrimary font-medium text-sm sm:text-base">
+                        **Subject to content and speaker seniority approval
+                    </p>
+                    <ul className="list-disc ml-8 sm:ml-16 space-y-1">
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Logo Displayed on all Marketing materials USD 4,000
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Delegate For Tanzania Fintech and Banking Conference
+                            2023 Fee: $300/Day
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Exhibition Cost 9sqm Stand is $4000 4sqm Stand is
+                            $2500
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Banner Advertisement in exhibition and conference
+                            hall 4*8 maximum is $1,000
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Tickets (pack of 10) For Three Days USD 8,000
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Article/Advertorial (Print and Digital) USD 1,500
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Expert video interview/ Podcast 10 minutes USD 1,000
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Panel Interview 30 minutes USD 2,500
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Keynote session in breakout rooms 20 minutes USD
+                            3,000
+                        </li>
+                        <li className="text-sm md:text-base font-medium text-grayText">
+                            Opening keynote session in breakout 20 minutes USD
+                            2,000
+                        </li>
+                    </ul>
                 </div>
             </div>
         </SectionWrapper>
