@@ -63,7 +63,7 @@ const WhoAttends: FC<IWhoAttends> = () => {
 
 	return (
 		<SectionWrapper>
-			<div className="my-24">
+			<div className="my-12 sm:my-24">
 				<h1 className="text-xl sm:text-3xl text-bluePrimary font-semibold mb-4 text-center">
 					WHO ATTENDS
 				</h1>

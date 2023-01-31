@@ -17,7 +17,7 @@ const Happening: FC<IHappening> = () => {
 
 	return (
 		<SectionWrapper>
-			<div className="py-24">
+			<div className="py-12 sm:py-24">
 				<h1 className="text-2xl md:text-3xl text-center font-semibold text-blackPrimary">
 					Happening
 				</h1>
