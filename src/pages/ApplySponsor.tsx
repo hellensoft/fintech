@@ -164,6 +164,19 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                             })}
                             onSubmit={(values) => {
                                 console.log(values);
+                                // let details = new FormData();
+                                // SOLUTION 1
+                                // Object.entries(values).forEach(([key, value]) => {
+                                //     if (typeof value !== 'string' |)
+                                //     details.append(key, value.toString());
+                                // });
+
+                                // SOLUTION 2
+                                // for (const [key, value] of Object.entries(values)) {
+                                //     details.append(key, value);
+                                //   }
+
+                                // SOLUTION 3
                                 // setLoading(true);
                                 // console.log(values);
                                 // let details = new FormData();

@@ -33,14 +33,11 @@ const tiers = [
 const TicketCards = () => {
 	return (
 		<div className="bg-bluePrimary">
-			<div className="pt-12 sm:pt-16 lg:pt-24">
+			<div className="sm:pt-16 lg:pt-24">
 				<div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 					<div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-						<h2 className="text-xl font-semibold leading-6 text-gray-300">
-							Pricing
-						</h2>
-						<p className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-							TICKETS TO TANZANIA FINTECH FESTIVAL
+						<p className="text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-5xl">
+							Tickets to Tanzania Fintech Festival
 						</p>
 						<p className="text-xl text-gray-300">
 							Purchase your ticket today.
