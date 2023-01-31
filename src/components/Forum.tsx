@@ -52,7 +52,7 @@ const Forum: FC<IForum> = () => {
 			<SectionWrapper>
 				<div className="py-24">
 					<h2 className="text-white font-semibold text-center mb-4 text-3xl sm:text-4xl lg:text-5xl">
-						2022 Forum
+						2023 Forum
 					</h2>
 					<p className="text-[#dddddd] text-sm xs:text-base font-medium mt-1 mb-12 max-w-[850px] text-center mx-auto">
 						Fintech Festivals Tanzania 2023 would welcome over 3,000

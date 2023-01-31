@@ -121,10 +121,7 @@ const TicketCards = () => {
 									</h3>
 								</div>
 								<div className="mt-4 text-lg text-gray-600">
-									Showcase your brand, thought leadership,
-									launch your latest products and win business
-									at the ultimate platform for fintech
-									innovation.
+								Showcase your Fintech products, or just how you contribute to Fintech growth and evolution, or simply give back to the fintech community for massive contribution they have done to your business.
 								</div>
 							</div>
 							<div className="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
@@ -132,7 +129,7 @@ const TicketCards = () => {
 									to="/apply-sponsor"
 									className="flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
 								>
-									Apply Sponsor
+									Apply to Sponsor
 								</Link>
 							</div>
 						</div>

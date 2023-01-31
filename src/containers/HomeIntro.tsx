@@ -32,10 +32,10 @@ const HomeIntro: FC<IHomeIntro> = () => {
 							<p className="my-4 mb-8 text-sm xs:text-base max-w-2xl mx-auto font-medium text-[#fffe]">
 								Whether you are a start-up, technology company,
 								investor, financial institution, research
-								institute, or innovation professional, it will
+								institute, or innovation professional, Fintech will
 								play a pivotal role in further strengthening the
 								ecosystem and enhancing collaboration between
-								Tanzania & Global FinTech.
+								Tanzania & Global FinTech community.
 							</p>
 							<div className="space-x-4">
 								<Link

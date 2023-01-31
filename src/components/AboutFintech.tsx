@@ -21,7 +21,7 @@ const AboutFintech: FC<IAboutFintech> = () => {
                         <p className="text-grayText text-sm sm:text-base font-medium">
                             Whether you are a start-up, technology company,
                             investor, financial institution, research institute,
-                            or innovation professional, it will play a pivotal
+                            or innovation professional, Fintech will play a pivotal
                             role in further strengthening the ecosystem of
                             financial and technical solutions in Tanzania,
                             Africa and world at large.

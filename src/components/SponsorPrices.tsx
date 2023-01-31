@@ -139,7 +139,7 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 										<div className="flex items-center space-x-2">
 											<BsDashLg className="text-grayText" />
 											<span className="text-grayText text-sm xs:text-base">
-												Post-event reportv
+												Post-event report
 											</span>
 										</div>
 									</div>

@@ -24,7 +24,7 @@ const PageIntro: FC<IPageIntro> = ({
 				loop
 				autoPlay
 			>
-				<source src="/videos/home-intro-video.webm" type="video/webm" />
+				<source src="https://www.youtube.com/watch?v=4H2Bt6p3pJU" type="video/webm" />
 			</video>
 			<div className="bg-blueTransparent">
 				<SectionWrapper>
