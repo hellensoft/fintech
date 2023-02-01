@@ -61,6 +61,9 @@ const Forum: FC<IForum> = () => {
 						decision makers, key influencers, and decision-makers.
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 lg:gap-10 max-w-[760px] mx-auto">
+                    <p className="text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-5xl">
+							Topic Areas to be covered
+						</p>
 						{data.map((data, index) => (
 							<div
 								key={index}

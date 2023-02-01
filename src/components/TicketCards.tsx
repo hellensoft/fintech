@@ -37,7 +37,7 @@ const TicketCards = () => {
 				<div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 					<div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
 						<p className="text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-5xl">
-							Tickets to Tanzania Fintech Festival
+							Fintech Festival Tanzania 2023
 						</p>
 						<p className="text-xl text-gray-300">
 							Purchase your ticket today.
