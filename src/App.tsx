@@ -14,6 +14,7 @@ import SingleAward from "./pages/SingleAward";
 import ApplySpeaker from "./pages/ApplySpeaker";
 import ApplySponsor from "./pages/ApplySponsor";
 import AboutFintechPage from "./pages/AboutFintect";
+import MediaGallery from "./pages/MediaGallery";
 
 interface IApp {}
 
@@ -51,6 +52,10 @@ const App: FC<IApp> = () => {
                             path="/sponsors-exhibitors"
                             element={<SponsorsExhibitors />}
                         />
+                        <Route
+                            path="/media-gallery"
+                            element={<MediaGallery />}
+                        />
                     </Routes>
                 </Layout>
             </BrowserRouter>
@@ -59,3 +64,5 @@ const App: FC<IApp> = () => {
 };
 
 export default App;
+
+// TOO: add boooking page for tickets page}

@@ -124,7 +124,7 @@ const TicketCards = () => {
 							<div className="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
 								<Link
 									to="/apply-sponsor"
-									className="flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
+									className="flex items-center justify-center rounded-md border border-bluePrimary bg-white px-5 py-3 text-base font-medium text-white hover:bg-gray-300"
 								>
 									Apply to Sponsor
 								</Link>

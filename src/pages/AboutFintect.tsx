@@ -7,7 +7,7 @@ interface IAboutFintechPage {}
 const AboutFintechPage: FC<IAboutFintechPage> = () => {
     return (
         <div className="">
-            <PageIntro title="About Fintech Festival" description="All about fintech festival." />
+            <PageIntro title="Fintech Festival Tanzania" description="Know about Fintech Festival" />
             <AboutFintech />
         </div>
     );

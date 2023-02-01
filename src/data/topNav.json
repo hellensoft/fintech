@@ -17,7 +17,7 @@
                 "end": false
             },
             {
-                "name": "Our Team",
+                "name": "Fintech Team",
                 "link": "/about/our-team",
                 "external": false,
                 "end": false
@@ -75,6 +75,13 @@
     {
         "name": "Awards",
         "link": "/apply-speaker",
+        "multiple": false,
+        "external": true,
+        "end": false
+    },
+    {
+        "name": "Media & Gallery",
+        "link": "/media-gallery",
         "multiple": false,
         "external": true,
         "end": false

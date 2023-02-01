@@ -17,15 +17,15 @@ const Enquiry: FC<IEnquiry> = () => {
     const [errorMessage, setErrorMessage] = useState<null | string>(null);
 
     const interestedOptions = [
-        "Speaking",
-        "Sponsoring and Exhibiting",
+        "Sponsoring",
+        "Exhibiting",
         "Attending",
         "Media pass",
         "Other",
     ];
 
     const hereOptions = [
-        "Attend another Fintech event",
+        "Attended another Fintech event",
         "Fintech Association",
         "Magazine / newspaper ad",
         "Website",
@@ -79,6 +79,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                 interestedIn: "",
                                 jobTitle: "",
                                 country: "Tanzania, United Republic of",
+                                city: "",
                                 companyName: "",
                                 phoneNumber: "",
                                 workingIn: "",
@@ -111,6 +112,9 @@ const Enquiry: FC<IEnquiry> = () => {
                                     .string()
                                     .required("Please fill this field"),
                                 lastName: yup
+                                    .string()
+                                    .required("Please fill this field"),
+                                city: yup
                                     .string()
                                     .required("Please fill this field"),
                                 email: yup
@@ -382,6 +386,36 @@ const Enquiry: FC<IEnquiry> = () => {
                                         </div>
                                     </div>
 
+                                    {/* COMPANY CITY */}
+
+                                    <div className="grid grid-cols-1 sm:grid-cols-[270px_1fr] lg:grid-cols-[350px_1fr] gap-2 sm:gap-4 items-center">
+                                        <label
+                                            className="text-grayText text-start sm:text-end"
+                                            htmlFor="city"
+                                        >
+                                            Company City:
+                                            <span className="text-bluePrimary ml-1">
+                                                *
+                                            </span>
+                                        </label>
+                                        <div>
+                                            <Field
+                                                id="city"
+                                                type="text"
+                                                name="city"
+                                                placeholder="Company City"
+                                                className="w-full p-2 border text-grayText focus:outline-none rounded"
+                                            />
+                                            <ErrorMessage name="city">
+                                                {(error) => (
+                                                    <p className="text-sm text-red-600 ml-2">
+                                                        {error}
+                                                    </p>
+                                                )}
+                                            </ErrorMessage>
+                                        </div>
+                                    </div>
+
                                     {/* PHONE NUMBER */}
 
                                     <div className="grid grid-cols-1 sm:grid-cols-[270px_1fr] lg:grid-cols-[350px_1fr] gap-2 sm:gap-4 items-center">
@@ -460,7 +494,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                             className="text-grayText text-start sm:text-end"
                                             htmlFor="hearedFrom"
                                         >
-                                            How did you here:
+                                            How did you here us:
                                         </label>
                                         <div>
                                             <Field

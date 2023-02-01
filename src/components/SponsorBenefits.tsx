@@ -8,7 +8,7 @@ const benefits = [
     {
         name: "We bring attention to your brand",
         description:
-            "Your brand is featured in all our marketing material, before, during and after the event, including on www.fintechfestivaltanzaniaco.tz and Tanzaniafintechmagazine.com",
+            "Your brand is featured in all our marketing material, before, during and after the event, including on www.fintechfestivaltanzania.co.tz and Tanzaniafintechmagazine.com",
     },
     {
         name: "We expose your expertise",
@@ -47,7 +47,7 @@ const SponsorBenefits: FC<ISponsorBenefits> = () => {
                                     {benefit.name}
                                 </h3>
                             </div>
-                            <p className="text-blackPrimary text-sm sm:text-base">
+                            <p className="text-blackPrimary text-sm sm:text-base text-justify">
                                 {benefit.description}
                             </p>
                         </div>

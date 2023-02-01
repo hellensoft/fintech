@@ -999,7 +999,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
 
                                     <div className="py-8">
                                         <h2 className="text-bluePrimary text-xl font-semibold mb-2">
-                                            CONFIRMATION
+                                            USER CONSENT
                                         </h2>
                                         <label className="flex items-start my-4">
                                             <Field
@@ -1008,8 +1008,8 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                 className="rounded mt-1 mr-2 text-bluePrimary"
                                             />
                                             <p className="text-grayText2 text-sm md:text-base">
-                                                (CONSENT) I provide my consent
-                                                to Trescon to send me latest
+                                                I provide my consent to EXCEL
+                                                MANAGEMENT & OUTSOURCING (T) LTD
                                                 updates via
                                                 email/Telegram/Whatsapp with
                                                 information related to their
@@ -1058,8 +1058,8 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                 of US$ 4000 and I agree to make
                                                 the payment via online. Payment
                                                 will be received by the
-                                                organising company: Tanzania
-                                                Fintech Festival.
+                                                organising company: EXCEL
+                                                MANAGEMENT & OUTSOURCING (T) LTD
                                                 <span className="text-bluePrimary ml-1">
                                                     *
                                                 </span>

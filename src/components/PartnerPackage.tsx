@@ -21,7 +21,7 @@ const tiers = [
     {
         name: "Disruptor",
         href: "#",
-        price: "400,000",
+        price: "40,000",
     },
 ];
 const features = [
