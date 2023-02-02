@@ -113,7 +113,7 @@ const TicketCards = () => {
 						<div className="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
 							<div className="flex-1">
 								<div>
-									<h3 className="inline-flex rounded-full bg-white px-4 py-1 text-base font-semibold text-gray-800">
+									<h3 className="inline-flex rounded-full bg-greenPrimary px-4 py-1 text-base font-semibold text-white">
 										Become a Sponsor
 									</h3>
 								</div>
@@ -124,7 +124,7 @@ const TicketCards = () => {
 							<div className="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
 								<Link
 									to="/apply-sponsor"
-									className="flex items-center justify-center rounded-md border border-bluePrimary bg-white px-5 py-3 text-base font-medium text-white hover:bg-gray-300"
+									className="flex items-center justify-center rounded-md border border-bluePrimary bg-bluePrimary px-5 py-3 text-base font-medium text-white hover:bg-gray-300"
 								>
 									Apply to Sponsor
 								</Link>
