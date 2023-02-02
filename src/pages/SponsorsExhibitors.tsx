@@ -12,8 +12,8 @@ const SponsorsExhibitors: FC<ISponsorsExhibitors> = () => {
     return (
         <div>
             <PageIntro
-                title="Sponsers and Exhibitors"
-                description="Become a Sponsor or Exhibitor"
+                title="Sponsors and Exhibitors"
+                description="Sponsors and Exhibitors Tips Corner"
             />
             <SponsorBenefits />
             <PlatinumSponser />

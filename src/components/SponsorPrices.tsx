@@ -14,7 +14,7 @@ const prices = [
     },
     {
         name: "START UP EXHIBITOR",
-        price: "1,500",
+        price: "700",
         description: "",
     },
 ];
@@ -59,7 +59,7 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
             <div className="pr-[calc(((100vw-1280px)/2))] py-16 md:pl-8">
                 <div className="px-4">
                     <h1 className="text-2xl lg:text-3xl font-semibold text-blackPrimary mb-4">
-                        PACKAGE BENEFITTS
+                        PACKAGE BENEFITS
                     </h1>
                     <div className="space-y-4">
                         <div className="flex items-start space-x-3">
@@ -144,7 +144,7 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
                                         </div>
                                     </div>
                                     <li className="text-grayText text-sm xs:text-base">
-                                        Listing of company name, logo, and short
+                                        Company name, logo, and short
                                         description will be featured on the
                                         event website
                                     </li>
@@ -166,3 +166,6 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 };
 
 export default SponsorPrices;
+
+
+// TODO: Add a reserve form

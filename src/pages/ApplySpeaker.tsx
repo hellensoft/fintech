@@ -16,10 +16,23 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [errorMessage, setErrorMessage] = useState<null | string>(null);
 
-    const interestedOptions = ["Speaking", "Attending", "Media pass", "Other"];
+    const interestedOptions = [
+        "Government Fintech Forum",
+        "CxO21",
+        "Risk 4.0",
+        "Fintech for Good",
+        "Token",
+        "he Fintech East Africa Awards",
+        "Fintech Online Market",
+        "Innovation Challenge demo day",
+        "The Plug and Play demo day",
+        "Web3",
+        "InsurTech",
+        "Microfinance in Saccos",
+    ];
 
     const hereOptions = [
-        "Attend another Fintech event",
+        "Attended another Fintech event",
         "Fintech Association",
         "Magazine / newspaper ad",
         "Website",
@@ -77,6 +90,7 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
                                 jobTitle: "",
                                 country: "Tanzania, United Republic of",
                                 companyName: "",
+                                city: "",
                                 phoneNumber: "",
                                 workingIn: "",
                                 firstName: "",
@@ -105,6 +119,9 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
                                     .string()
                                     .required("Please fill this field"),
                                 companyName: yup
+                                    .string()
+                                    .required("Please fill this field"),
+                                city: yup
                                     .string()
                                     .required("Please fill this field"),
                                 lastName: yup
@@ -336,6 +353,36 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
                                         </div>
                                     </div>
 
+                                    {/* COMPANY CITY */}
+
+                                    <div className="grid grid-cols-1 sm:grid-cols-[270px_1fr] lg:grid-cols-[350px_1fr] gap-2 sm:gap-4 items-center">
+                                        <label
+                                            className="text-grayText text-start sm:text-end"
+                                            htmlFor="city"
+                                        >
+                                            Company City:
+                                            <span className="text-bluePrimary ml-1">
+                                                *
+                                            </span>
+                                        </label>
+                                        <div>
+                                            <Field
+                                                id="city"
+                                                type="text"
+                                                name="city"
+                                                placeholder="Company City"
+                                                className="w-full p-2 border text-grayText focus:outline-none rounded"
+                                            />
+                                            <ErrorMessage name="city">
+                                                {(error) => (
+                                                    <p className="text-sm text-red-600 ml-2">
+                                                        {error}
+                                                    </p>
+                                                )}
+                                            </ErrorMessage>
+                                        </div>
+                                    </div>
+
                                     {/* COUNTRY NAME */}
 
                                     <div className="grid grid-cols-1 sm:grid-cols-[270px_1fr] lg:grid-cols-[350px_1fr] gap-2 sm:gap-4 items-center">
@@ -457,7 +504,7 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
                                             className="text-grayText text-start sm:text-end"
                                             htmlFor="hearedFrom"
                                         >
-                                            How did you here:
+                                            How did you here us:
                                         </label>
                                         <div>
                                             <Field
@@ -495,15 +542,8 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
                                             Terms, conditions and privacy:
                                         </h2>
                                         <p className="text-grayText2">
-                                            Fintech may contact you from time to
-                                            time with updates and information
-                                            about our events, products and
-                                            services that may be of interest. We
-                                            may also pass your details to
-                                            carefully selected third parties and
-                                            to sponsors and exhibitors at this
-                                            event. Please see our privacy policy
-                                            for full details.
+                                            Fintech Tanzania team share the
+                                            terms and conditions so we can read
                                         </p>
                                         <label className="flex items-start my-4">
                                             <Field
@@ -512,11 +552,11 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
                                                 className="rounded mt-1 mr-2 text-bluePrimary"
                                             />
                                             <p className="text-grayText2">
-                                                By continuing with the
-                                                registration you are confirming
-                                                that you have read, understand
-                                                and accept our terms and
-                                                conditions and privacy policy{" "}
+                                                By clicking the button below,
+                                                you are confirming that you have
+                                                read, understand and accept our
+                                                terms and conditions and privacy
+                                                policy
                                                 <span className="text-bluePrimary ml-1">
                                                     *
                                                 </span>
