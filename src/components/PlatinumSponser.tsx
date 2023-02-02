@@ -7,9 +7,9 @@ const features = [
     "Exhibitor stand 12sqm",
     "3 articles (print & digital) - 2 before and after event",
     "2 min promo video",
-    "Thought leadership interview (3o minutes)",
+    "Thought leadership interview (30 minutes)",
     "Host your own moderated Panel",
-    "1 keynote in Plenum 20 minutes session",
+    "1 keynote in panel 20 minutes session",
 ];
 
 const PlatinumSponser = () => {

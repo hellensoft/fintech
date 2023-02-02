@@ -1,14 +1,10 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../components/SectionWrapper";
-// import { Navigation, Autoplay } from "swiper";
-// import { Swiper, SwiperSlide } from "swiper/react";
 
 interface IHomeIntro {}
 
 const HomeIntro: FC<IHomeIntro> = () => {
-	// const navigationPrevRef = useRef(null);
-	// const navigationNextRef = useRef(null);
 
 	return (
 		<div className="relative">

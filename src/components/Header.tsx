@@ -175,12 +175,12 @@ const Header: FC<IHeader> = ({ fixed }) => {
                                 )}
                             </Fragment>
                         ))}
-                        <Link
+                        {/* <Link
                             className="font-medium bg-bluePrimary hover:bg-greenPrimary duration-300 py-2 px-6 rounded-md text-white"
                             to="/enquiry"
                         >
                             Enquire Now
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </SectionWrapper>

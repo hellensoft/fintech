@@ -39,9 +39,9 @@ const WhySponser: FC<IWhySponser> = () => {
 					</h1>
 					<p className="text-grayText text-sm sm:text-base font-medium">
 						This is an opportunity to become a partner and get
-						exposure to more than 3,000 execu- tives from across
+						exposure to more than 3,000 executives from across
 						Tanzania, Africa, and the entire World. Get in front of
-						the FinTech com- munity, which prioritises meeting new
+						the FinTech community, which prioritises meeting new
 						solution providers and forging relations to grow their
 						businesses.
 					</p>

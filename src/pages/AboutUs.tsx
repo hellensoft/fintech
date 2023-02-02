@@ -9,9 +9,12 @@ interface IAboutUs {}
 const AboutUs: FC<IAboutUs> = () => {
     return (
         <div>
-            <PageIntro title="About Us" description="Our Team" />
+            <PageIntro
+                title="About Fintech Tanzania"
+                description="Meet Fintech Team"
+            />
             <SectionWrapper>
-                <div className="py-16 md:py-24">
+                <div className="py-12 md:py-16">
                     <div className="pt-12 md:pt-20 pb-4 md:pb-20 grid grid-cols-1 md:grid-cols-2 gap-12 content-center items-center">
                         <div className="space-y-6">
                             <h1 className="text-bluePrimary text-2xl sm:text-3xl text-center font-semibold">
@@ -50,10 +53,10 @@ const AboutUs: FC<IAboutUs> = () => {
                 </div>
             </SectionWrapper>
             <SectionWrapper>
-                <div className="py-16 md:py-20">
+                <div className="py-10 md:py-16">
                     <div className="max-w-[787px] mx-auto text-center mb-8">
                         <h1 className="text-bluePrimary text-2xl sm:text-3xl font-semibold mb-4">
-                            Team Members
+                            Fintech Team Members
                         </h1>
                         <p className="text-grayText text-sm sm:text-base text-medium">
                             Our team comprises senior leaders in Financial
