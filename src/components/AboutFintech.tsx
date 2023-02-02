@@ -45,7 +45,7 @@ const AboutFintech: FC<IAboutFintech> = () => {
                         <iframe
                             className="w-full h-full"
                             title="fintech"
-                            src="https://www.youtube.com/embed/nMhvMPu0UcU?controls=0"
+                            src="https://www.youtube.com/embed/4H2Bt6p3pJU"
                         ></iframe>
                     </div>
                 </div>

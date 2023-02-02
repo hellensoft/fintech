@@ -1040,7 +1040,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                 >
                                                     Privacy policy
                                                 </Link>{" "}
-                                                of Trescon.
+                                                of EXCEL MANAGEMENT & OUTSOURCING (T) LTD.
                                                 <span className="text-bluePrimary ml-1">
                                                     *
                                                 </span>
