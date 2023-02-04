@@ -42,7 +42,7 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
                                     </p>
                                     <Link
                                         className="font-medium bg-bluePrimary hover:bg-greenPrimary duration-300 py-2 px-6  text-white"
-                                        to="/enquiry"
+                                        to="/book-space"
                                     >
                                         Reserve space
                                     </Link>
@@ -166,6 +166,3 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
 };
 
 export default SponsorPrices;
-
-
-// TODO: Add a reserve form

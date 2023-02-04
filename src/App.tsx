@@ -15,6 +15,7 @@ import ApplySpeaker from "./pages/ApplySpeaker";
 import ApplySponsor from "./pages/ApplySponsor";
 import AboutFintechPage from "./pages/AboutFintect";
 import MediaGallery from "./pages/MediaGallery";
+import BookingSpace from "./pages/BookingSpace";
 
 interface IApp {}
 
@@ -56,6 +57,7 @@ const App: FC<IApp> = () => {
                             path="/media-gallery"
                             element={<MediaGallery />}
                         />
+                        <Route path="/book-space" element={<BookingSpace />} />
                     </Routes>
                 </Layout>
             </BrowserRouter>
