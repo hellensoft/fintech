@@ -20,7 +20,7 @@ const HomeIntro: FC<IHomeIntro> = () => {
 					<div className="max-w-[900px] mx-auto py-28 sm:py-40">
 						<div className="text-center">
 							<h1 className="text-lg sm:text-xl font-semibold text-white">
-								23<sup>th</sup> - 25<sup>th</sup> August 2023
+								08<sup>th</sup> - 09<sup>th</sup> November 2023
 							</h1>
 							<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 text-white">
 								FinTech Festival Tanzania 2023
