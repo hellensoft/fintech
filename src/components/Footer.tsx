@@ -9,16 +9,16 @@ import {
 import { Link } from "react-router-dom";
 
 interface IFooter {}
-
+const year = new Date().getFullYear();
 const Footer: FC<IFooter> = () => {
 	return (
 		<div className="bg-bluePrimary">
 			<SectionWrapper>
 				<div className="py-8 md:space-y-0 flex-col-reverse md:flex-row flex items-center justify-between">
 					<p className="text-sm mt-4 md:mt-0 text-center md:text-start md:text-base text-white">
-						© 2022{" "}
+						© {year}{" "}
 						<span className="font-semibold">
-							FintechFestivalTanzania2022
+							Fintech Festival Tanzania 2023
 						</span>
 						, All rights Reserved. Experienced by{" "}
 						<span className="font-semibold">HELLENSoft</span>
