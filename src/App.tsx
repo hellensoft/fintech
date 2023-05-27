@@ -16,6 +16,7 @@ import ApplySponsor from "./pages/ApplySponsor";
 import AboutFintechPage from "./pages/AboutFintect";
 import MediaGallery from "./pages/MediaGallery";
 import BookingSpace from "./pages/BookingSpace";
+import Speakers from "./pages/Speakers";
 
 interface IApp {}
 
@@ -42,6 +43,7 @@ const App: FC<IApp> = () => {
                             path="/apply-speaker"
                             element={<ApplySpeaker />}
                         />
+                        <Route path="/speakers" element={<Speakers />} />
                         <Route
                             path="/apply-sponsor"
                             element={<ApplySponsor />}

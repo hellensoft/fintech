@@ -1,11 +1,11 @@
 [
     {
         "name": "Speakers",
-        "number": "130+"
+        "number": "100+"
     },
     {
-        "name": "Sessions",
-        "number": "70+"
+        "name": "Attendees",
+        "number": "3000+"
     },
     {
         "name": "Hours",
@@ -13,6 +13,6 @@
     },
     {
         "name": "Days",
-        "number": "3"
+        "number": "2"
     }
 ]

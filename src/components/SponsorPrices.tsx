@@ -14,7 +14,7 @@ const prices = [
     },
     {
         name: "START UP EXHIBITOR",
-        price: "700",
+        price: null,
         description: "",
     },
 ];
@@ -34,9 +34,11 @@ const SponsorPrices: FC<ISponsorPrices> = () => {
                                     <h3 className="font-semibold text-blackPrimary text-xl sm:text-2xl">
                                         {price.name}
                                     </h3>
-                                    <h1 className="font-semibold text-blackPrimary text-xl sm:text-2xl">
-                                        USD {price.price}
-                                    </h1>
+                                    {price.price && (
+                                        <h1 className="font-semibold text-blackPrimary text-xl sm:text-2xl">
+                                            USD {price.price}
+                                        </h1>
+                                    )}
                                     <p className="font-semibold text-blackPrimary text-xl -mt-1 sm:text-2xl">
                                         {price.description}
                                     </p>
