@@ -64,7 +64,7 @@ const Forum: FC<IForum> = () => {
                     </h2>
                     <p className="text-[#dddddd] text-sm xs:text-base font-medium mt-1 mb-12 max-w-[850px] text-center mx-auto">
                         Fintech Festivals Tanzania 2023 would welcome over 3,000
-                        international participants at the 3-day festival, the
+                        international participants at the 2-day festival, the
                         vast majority being C-suite, Heads-of-Departments, key
                         decision makers, key influencers, and decision-makers.
                     </p>
