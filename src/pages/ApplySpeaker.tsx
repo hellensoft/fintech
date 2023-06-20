@@ -138,7 +138,7 @@ const ApplySpeaker: FC<IApplySpeaker> = () => {
                             onSubmit={(values) => {
                                 setLoading(true);
                                 fetch(
-                                    `${process.env.REACT_APP_BACKEND_URL}/fintech/apply-speaker`,
+                                    `${process.env.REACT_APP_BACKEND_URL}/api/emails/applySpeaker`,
                                     {
                                         method: "POST",
                                         headers: {

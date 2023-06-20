@@ -97,7 +97,7 @@ const ContactUs: FC<IContactUs> = () => {
                         onSubmit={(values) => {
                             setLoading(true);
                             fetch(
-                                `${process.env.REACT_APP_BACKEND_URL}/fintech/contact`,
+                                `${process.env.REACT_APP_BACKEND_URL}/api/emails/contact`,
                                 {
                                     method: "POST",
                                     headers: {

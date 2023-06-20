@@ -50,7 +50,7 @@ const App: FC<IApp> = () => {
                         />
                         <Route path="/awards" element={<Awards />} />
                         <Route path="/awards/:id" element={<SingleAward />} />
-                        <Route path="/enquiry" element={<Enquiry />} />
+                        <Route path="/inquery" element={<Enquiry />} />
                         <Route
                             path="/sponsors-exhibitors"
                             element={<SponsorsExhibitors />}
