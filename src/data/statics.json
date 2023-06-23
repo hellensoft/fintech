@@ -1,15 +1,19 @@
 [
     {
-        "name": "Speakers",
-        "number": "150+"
+        "name": "Speakers 2023",
+        "number": "160+"
     },
     {
         "name": "Attendees",
-        "number": "3000+"
+        "number": "4000+"
+    },
+    {
+        "name": "Attendees Companies",
+        "number": "1300+"
     },
     {
         "name": "Hours",
-        "number": "24"
+        "number": "22"
     },
     {
         "name": "Days",

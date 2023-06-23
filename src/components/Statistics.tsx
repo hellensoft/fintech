@@ -10,7 +10,7 @@ const Statistics: FC<IStatistics> = () => {
 			<SectionWrapper>
 				<div className="py-24">
 					{/* <h2 className="text-white font-semibold text-center mb-20 text-3xl">The Heading to be given by Francis</h2> */}
-					<div className="grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-12 sm:gap-0 md:gap-12">
+					<div className="grid grid-cols-2 sm:grid-cols-5 gap-x-4 gap-y-12 sm:gap-0 md:gap-12">
 						{statistics.map((data, index) => (
 							<div
 								className="flex flex-col items-center"
