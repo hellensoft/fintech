@@ -1,8 +1,8 @@
-import { FC, useEffect, useState } from "react";
+import { FC, useState } from "react";
 import { BsCheckCircle } from "react-icons/bs";
 import PageIntro from "../components/PageIntro";
 import SectionWrapper from "../components/SectionWrapper";
-import { Formik, Form, Field, ErrorMessage, useFormikContext } from "formik";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 import countryList from "react-select-country-list";
 import * as yup from "yup";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
