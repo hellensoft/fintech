@@ -1,9 +1,5 @@
 [
     {
-        "name": "Speakers 2023",
-        "number": "160+"
-    },
-    {
         "name": "Attendees",
         "number": "4000+"
     },
@@ -12,11 +8,19 @@
         "number": "1300+"
     },
     {
-        "name": "Hours",
-        "number": "22"
+        "name": "Sponsors& Exhibitors",
+        "number": "100+"
     },
     {
-        "name": "Days",
-        "number": "2"
+        "name": "Countries represented",
+        "number": "45+"
+    },
+    {
+        "name": "Media Partners",
+        "number": "200"
+    },
+    {
+        "name": "Speakers 2023",
+        "number": "160+"
     }
 ]
