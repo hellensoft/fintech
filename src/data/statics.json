@@ -1,18 +1,18 @@
 [
     {
         "name": "Speakers",
-        "number": "150+"
+        "number": "160+"
     },
     {
         "name": "Attendees",
-        "number": "3000+"
+        "number": "4,000+"
     },
     {
-        "name": "Hours",
-        "number": "24"
+        "name": "Attending companies",
+        "number": "1,300+"
     },
     {
-        "name": "Days",
-        "number": "2"
+        "name": "Sponsors&Exhibitors",
+        "number": "100+"
     }
 ]

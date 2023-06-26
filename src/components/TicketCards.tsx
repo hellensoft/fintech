@@ -67,7 +67,7 @@ const TicketCards = () => {
 										<div className="mt-4 flex items-baseline text-6xl font-bold tracking-tight">
 											${tier.priceMonthly}{" "}
 											<span className="text-base font-normal -mt-4 ml-2">
-												/ 3 days
+												/ 2 days
 											</span>
 										</div>
 										<p className="mt-5 text-lg text-gray-500">

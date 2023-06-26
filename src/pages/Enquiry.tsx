@@ -128,7 +128,7 @@ const Enquiry: FC<IEnquiry> = () => {
                             onSubmit={(values) => {
                                 setLoading(true);
                                 fetch(
-                                    `${process.env.REACT_APP_BACKEND_URL}/fintech/enquire`,
+                                    `${process.env.REACT_APP_BACKEND_URL}/api/emails/inquery`,
                                     {
                                         method: "POST",
                                         headers: {

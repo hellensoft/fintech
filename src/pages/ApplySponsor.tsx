@@ -74,13 +74,11 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                     ) : (
                         <Formik
                             initialValues={{
-                                jobTitle: "",
                                 country: "Tanzania, United Republic of",
                                 companyName: "",
                                 companyPhone: "",
                                 city: "",
                                 phoneNumber: "",
-                                workingIn: "",
                                 firstName: "",
                                 lastName: "",
                                 website: "",
@@ -91,7 +89,6 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                 email: "",
                                 companyEmail: "",
                                 individualDetails: "",
-                                hearedFrom: "",
                                 financeName: "",
                                 financeJob: "",
                                 financeMobile: "",
@@ -104,159 +101,126 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                 consent: false,
                                 acceptPayment: false,
                             }}
-                            validationSchema={yup.object().shape({
-                                // firstName: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // website: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // jobTitle: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // country: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // workingIn: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // hearedFrom: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // companyName: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // city: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // lastName: yup
-                                //     .string()
-                                //     .required("Please fill this field"),
-                                // email: yup
-                                //     .string()
-                                //     .email("Please enter a valid email")
-                                //     .required("Please fill this field"),
-                                // phoneNumber: yup
-                                //     .number()
-                                //     .required("Please fill this field"),
-                                // companyPhone: yup
-                                //     .number()
-                                //     .required("Please fill this field"),
-                                // companyLogo: yup
-                                //     .mixed()
-                                //     .test(
-                                //         "fileSize",
-                                //         "File too large",
-                                //         (value) =>
-                                //             value === null ||
-                                //             (value && value.size <= 5000)
-                                //     )
-                                //     .test(
-                                //         "fileFormat",
-                                //         "Unsupported file type",
-                                //         (value) =>
-                                //             value === null ||
-                                //             (value &&
-                                //                 ["application/pdf"].includes(
-                                //                     value.type
-                                //                 ))
-                                //     ),
-                            })}
+                            // validationSchema={yup.object().shape({
+                            //     firstName: yup
+                            //         .string()
+                            //         .required("Please fill this field"),
+                            //     website: yup
+                            //         .string()
+                            //         .required("Please fill this field"),
+                            //     country: yup
+                            //         .string()
+                            //         .required("Please fill this field"),
+                            //     companyName: yup
+                            //         .string()
+                            //         .required("Please fill this field"),
+                            //     city: yup
+                            //         .string()
+                            //         .required("Please fill this field"),
+                            //     lastName: yup
+                            //         .string()
+                            //         .required("Please fill this field"),
+                            //     email: yup
+                            //         .string()
+                            //         .email("Please enter a valid email")
+                            //         .required("Please fill this field"),
+                            //     phoneNumber: yup
+                            //         .number()
+                            //         .required("Please fill this field"),
+                            //     companyPhone: yup
+                            //         .number()
+                            //         .required("Please fill this field"),
+                            //     companyLogo: yup
+                            //         .mixed()
+                            //         .test(
+                            //             "fileSize",
+                            //             "File too large",
+                            //             (value) =>
+                            //                 value === null ||
+                            //                 (value && value.size >= 5000)
+                            //         ),
+                            // })}
                             onSubmit={(values) => {
                                 console.log(values);
-                                // let details = new FormData();
-                                // SOLUTION 1
-                                // Object.entries(values).forEach(([key, value]) => {
-                                //     if (typeof value !== 'string' |)
-                                //     details.append(key, value.toString());
-                                // });
+                                let details = new FormData();
 
-                                // SOLUTION 2
-                                // for (const [key, value] of Object.entries(values)) {
-                                //     details.append(key, value);
-                                //   }
+                                details.append("country", values.country);
+                                details.append(
+                                    "companyName",
+                                    values.companyName
+                                );
+                                details.append(
+                                    "companyPhone",
+                                    values.companyPhone
+                                );
+                                details.append("city", values.city);
+                                details.append(
+                                    "phoneNumber",
+                                    values.phoneNumber
+                                );
+                                details.append("firstName", values.firstName);
+                                details.append("lastName", values.lastName);
+                                details.append("website", values.website);
+                                details.append("industry", values.industry);
+                                details.append("linkedin", values.linkedin);
+                                details.append("twitter", values.twitter);
+                                details.append("facebook", values.facebook);
+                                details.append("email", values.email);
+                                details.append(
+                                    "companyEmail",
+                                    values.companyEmail
+                                );
+                                details.append(
+                                    "individualDetails",
+                                    values.individualDetails
+                                );
+                                details.append(
+                                    "financeName",
+                                    values.financeName
+                                );
+                                details.append("financeJob", values.financeJob);
+                                details.append(
+                                    "financeMobile",
+                                    values.financeMobile
+                                );
+                                details.append(
+                                    "financeEmail",
+                                    values.financeEmail
+                                );
+                                details.append(
+                                    "companyAddress",
+                                    values.companyAddress
+                                );
+                                details.append("vatNumber", values.vatNumber);
+                                details.append("solutions", values.solutions);
+                                details.append(
+                                    "file",
+                                    values.companyLogo as File
+                                );
 
-                                // SOLUTION 3
-                                // setLoading(true);
-                                // console.log(values);
-                                // let details = new FormData();
-
-                                // details.append("jobTitle", values.jobTitle);
-                                // details.append("country", values.country);
-                                // details.append(
-                                //     "companyName",
-                                //     values.companyName
-                                // );
-                                // details.append(
-                                //     "companyPhone",
-                                //     values.companyPhone
-                                // );
-                                // details.append("city", values.city);
-                                // details.append(
-                                //     "phoneNumber",
-                                //     values.phoneNumber
-                                // );
-                                // details.append("workingIn", values.workingIn);
-                                // details.append("firstName", values.firstName);
-                                // details.append("lastName", values.lastName);
-                                // details.append("website", values.website);
-                                // details.append("industry", values.industry);
-                                // details.append("linkedin", values.linkedin);
-                                // details.append("twitter", values.twitter);
-                                // details.append("facebook", values.facebook);
-                                // details.append("email", values.email);
-                                // details.append(
-                                //     "companyEmail",
-                                //     values.companyEmail
-                                // );
-                                // details.append(
-                                //     "individualDetails",
-                                //     values.individualDetails
-                                // );
-                                // details.append("hearedFrom", values.hearedFrom);
-                                // details.append(
-                                //     "financeName",
-                                //     values.financeName
-                                // );
-                                // details.append("financeJob", values.financeJob);
-                                // details.append(
-                                //     "financeMobile",
-                                //     values.financeMobile
-                                // );
-                                // details.append(
-                                //     "financeEmail",
-                                //     values.financeEmail
-                                // );
-                                // details.append(
-                                //     "companyAddress",
-                                //     values.companyAddress
-                                // );
-                                // details.append("vatNumber", values.vatNumber);
-                                // details.append("solutions", values.solutions);
-                                // details.append(
-                                //     "file",
-                                //     values.companyLogo as File
-                                // )
-
-                                // fetch(
-                                //     `${process.env.REACT_APP_BACKEND_URL}/fintech/apply-exhibitor`,
-                                //     {
-                                //         method: "POST",
-                                //         headers: {
-                                //             "Content-Type": "application/json",
-                                //         },
-                                //         body: details,
-                                //     }
-                                // )
-                                //     .then((res) => res.json())
-                                //     .then((res) => {
-                                //         setLoading(false);
-                                //         setIsSubmitted(true);
-                                //     })
-                                //     .catch((err) => {
-                                //         setErrorMessage(err.message);
-                                //         setLoading(false);
-                                //     });
+                                fetch(
+                                    `${process.env.REACT_APP_BACKEND_URL}/api/emails/applyExhibitor`,
+                                    {
+                                        method: "POST",
+                                        body: details,
+                                    }
+                                )
+                                    .then((res) => {
+                                        if (!res.ok) {
+                                            throw new Error(
+                                                "File upload failed."
+                                            ); // Handle the error case
+                                        }
+                                        return res.text();
+                                    })
+                                    .then((res) => {
+                                        setLoading(false);
+                                        setIsSubmitted(true);
+                                    })
+                                    .catch((err) => {
+                                        setErrorMessage(err.message);
+                                        setLoading(false);
+                                    });
                             }}
                         >
                             {({ values, setFieldValue }) => (
@@ -1040,7 +1004,8 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                 >
                                                     Privacy policy
                                                 </Link>{" "}
-                                                of EXCEL MANAGEMENT & OUTSOURCING (T) LTD.
+                                                of EXCEL MANAGEMENT &
+                                                OUTSOURCING (T) LTD.
                                                 <span className="text-bluePrimary ml-1">
                                                     *
                                                 </span>
