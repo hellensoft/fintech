@@ -94,10 +94,9 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                     .required("Please fill this field"),
                             })}
                             onSubmit={(values) => {
-                                console.log(values);
                                 setLoading(true);
                                 fetch(
-                                    `${process.env.REACT_APP_BACKEND_URL}/fintech/space-booking`,
+                                    `${process.env.REACT_APP_BACKEND_URL}/api/emails/bookSpace`,
                                     {
                                         method: "POST",
                                         headers: {
@@ -140,7 +139,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="firstName">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -170,7 +169,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="lastName">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -200,7 +199,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="companyName">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -230,7 +229,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="email">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -260,7 +259,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded pr-10 bg-transparent"
                                             />
                                             <ErrorMessage name="phoneNumber">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -303,7 +302,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 )}
                                             </Field>
                                             <ErrorMessage name="country">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -333,7 +332,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="city">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -375,7 +374,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 )}
                                             </Field>
                                             <ErrorMessage name="boothType">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -417,7 +416,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 )}
                                             </Field>
                                             <ErrorMessage name="spaceDetails">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -447,7 +446,7 @@ const BookingSpage: FC<IBookingSpage> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="numberOfBooth">
-                                                {(error:any) => (
+                                                {(error: any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
