@@ -127,7 +127,8 @@ const ContactUs: FC<IContactUs> = () => {
                                         className="w-full text-sm sm:text-base p-2 border text-grayText focus:outline-none rounded"
                                     />
                                     <ErrorMessage name="firstName">
-                                        {(error) => (
+                                        {(error: any) =>
+                                        (
                                             <p className="text-sm text-red-600 ml-2">
                                                 {error}
                                             </p>
@@ -142,7 +143,7 @@ const ContactUs: FC<IContactUs> = () => {
                                         className="w-full text-sm sm:text-base p-2 border text-grayText focus:outline-none rounded"
                                     />
                                     <ErrorMessage name="lastName">
-                                        {(error) => (
+                                        {(error:any) => (
                                             <p className="text-sm text-red-600 ml-2">
                                                 {error}
                                             </p>
@@ -158,7 +159,7 @@ const ContactUs: FC<IContactUs> = () => {
                                     className="w-full text-sm sm:text-base p-2 border text-grayText focus:outline-none rounded"
                                 />
                                 <ErrorMessage name="email">
-                                    {(error) => (
+                                    {(error:any) => (
                                         <p className="text-sm text-red-600 ml-2">
                                             {error}
                                         </p>
@@ -173,7 +174,7 @@ const ContactUs: FC<IContactUs> = () => {
                                     className="w-full text-sm sm:text-base h-28 p-2 border text-grayText focus:outline-none rounded"
                                 />
                                 <ErrorMessage name="message">
-                                    {(error) => (
+                                    {(error:any) => (
                                         <p className="text-sm text-red-600 ml-2">
                                             {error}
                                         </p>

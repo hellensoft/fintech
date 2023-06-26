@@ -184,7 +184,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 )}
                                             </Field>
                                             <ErrorMessage name="interestedIn">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -214,7 +214,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="email">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -244,7 +244,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="firstName">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -274,7 +274,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="lastName">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -304,7 +304,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="jobTitle">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -334,7 +334,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="companyName">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -377,7 +377,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 )}
                                             </Field>
                                             <ErrorMessage name="country">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -407,7 +407,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded"
                                             />
                                             <ErrorMessage name="city">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -437,7 +437,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 className="w-full p-2 border text-grayText focus:outline-none rounded pr-10 bg-transparent"
                                             />
                                             <ErrorMessage name="phoneNumber">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -479,7 +479,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 )}
                                             </Field>
                                             <ErrorMessage name="workingIn">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>
@@ -518,7 +518,7 @@ const Enquiry: FC<IEnquiry> = () => {
                                                 )}
                                             </Field>
                                             <ErrorMessage name="hearedFrom">
-                                                {(error) => (
+                                                {(error:any) => (
                                                     <p className="text-sm text-red-600 ml-2">
                                                         {error}
                                                     </p>

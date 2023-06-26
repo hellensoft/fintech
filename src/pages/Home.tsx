@@ -38,7 +38,7 @@ const Home: FC<IHome> = () => {
                         </h1>
                         <p className="text-[#52576a] text-sm xs:text-base font-medium text-justify">
                             There are various choices with more than 70
-                            sessions, 130+ speakers, and over 22 hours of
+                            sessions, 160+ speakers, and over 22 hours of
                             content. Get to hear from the Minister and policy
                             markers; learn from Regulators and Chief Executive
                             Officers of Top Financial institutions in Tanzania

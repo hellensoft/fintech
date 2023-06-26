@@ -1,18 +1,26 @@
 [
     {
-        "name": "Speakers",
-        "number": "160+"
-    },
-    {
         "name": "Attendees",
-        "number": "4,000+"
+        "number": "4000+"
     },
     {
-        "name": "Attending companies",
-        "number": "1,300+"
+        "name": "Attendees Companies",
+        "number": "1300+"
     },
     {
-        "name": "Sponsors&Exhibitors",
+        "name": "Sponsors& Exhibitors",
         "number": "100+"
+    },
+    {
+        "name": "Countries represented",
+        "number": "45+"
+    },
+    {
+        "name": "Media Partners",
+        "number": "200"
+    },
+    {
+        "name": "Speakers 2023",
+        "number": "160+"
     }
 ]
