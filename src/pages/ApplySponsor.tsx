@@ -297,7 +297,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="firstName">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -325,7 +325,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="lastName">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -353,7 +353,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="email">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -381,7 +381,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="phoneNumber">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -438,7 +438,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                     className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                 />
                                                 <ErrorMessage name="companyLogo">
-                                                    {(error) => (
+                                                    {(error:any) => (
                                                         <p className="text-sm text-red-600 ml-2">
                                                             {error}
                                                         </p>
@@ -467,7 +467,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="companyName">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -495,7 +495,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="companyPhone">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -523,7 +523,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="companyEmail">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -551,7 +551,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="city">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -598,7 +598,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         )}
                                                     </Field>
                                                     <ErrorMessage name="country">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -626,7 +626,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="website">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -674,7 +674,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         )}
                                                     </Field>
                                                     <ErrorMessage name="industry">
-                                                        {(error) => (
+                                                        {(error:any ) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -701,7 +701,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                             className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                         />
                                                         <ErrorMessage name="linkedin">
-                                                            {(error) => (
+                                                            {(error:any) => (
                                                                 <p className="text-sm text-red-600 ml-2">
                                                                     {error}
                                                                 </p>
@@ -725,7 +725,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                             className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                         />
                                                         <ErrorMessage name="twitter">
-                                                            {(error) => (
+                                                            {(error:any) => (
                                                                 <p className="text-sm text-red-600 ml-2">
                                                                     {error}
                                                                 </p>
@@ -749,7 +749,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                             className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                         />
                                                         <ErrorMessage name="facebook">
-                                                            {(error) => (
+                                                            {(error:any) => (
                                                                 <p className="text-sm text-red-600 ml-2">
                                                                     {error}
                                                                 </p>
@@ -788,7 +788,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="individualDetails">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -816,7 +816,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="financeName">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -844,7 +844,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="financeJob">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -872,7 +872,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="financeMobile">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -900,7 +900,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="financeEmail">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -928,7 +928,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="companyAddress">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -956,7 +956,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="vatNumber">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
@@ -986,7 +986,7 @@ const ApplySponsor: FC<IApplySponsor> = () => {
                                                         className="w-full py-1 px-2 border placeholder:text-grayText2 text-sm md:text-base text-grayText focus:outline-none rounded"
                                                     />
                                                     <ErrorMessage name="solutions">
-                                                        {(error) => (
+                                                        {(error:any) => (
                                                             <p className="text-sm text-red-600 ml-2">
                                                                 {error}
                                                             </p>
