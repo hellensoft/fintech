@@ -1,17 +1,16 @@
 [
     {
         "name": "Home",
-        "link": "/",
-        "multiple": false,
-        "external": false,
-        "end": true
-    },
-    {
-        "name": "About",
         "multiple": true,
         "links": [
             {
                 "name": "Fintech Festival",
+                "link": "/",
+                "external": false,
+                "end": false
+            },
+            {
+                "name": "About Fintech",
                 "link": "/about/fintech-festival",
                 "external": false,
                 "end": false
@@ -35,12 +34,6 @@
                 "end": false
             },
             {
-                "name": "Startup Zone",
-                "link": "#",
-                "external": false,
-                "end": false
-            },
-            {
                 "name": "Apply Sponsor/Exhibitor",
                 "link": "/apply-sponsor",
                 "external": false,
@@ -49,7 +42,7 @@
         ]
     },
     {
-        "name": "Agenda & Speakers",
+        "name": "Conference",
         "multiple": true,
         "links": [
             {
@@ -73,7 +66,26 @@
         ]
     },
     {
-        "name": "Media & Gallery",
+        "name": "Attend",
+        "multiple": true,
+        "links": [
+            {
+                "name": "Why Attend",
+                "link": "/speakers",
+                "external": false,
+                "end": false
+            }
+        ]
+    },
+    {
+        "name": "Resources",
+        "link": "/media-gallery",
+        "multiple": false,
+        "external": true,
+        "end": false
+    },
+    {
+        "name": "Media",
         "link": "/media-gallery",
         "multiple": false,
         "external": true,
