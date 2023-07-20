@@ -17,6 +17,7 @@ import AboutFintechPage from "./pages/AboutFintect";
 import MediaGallery from "./pages/MediaGallery";
 import BookingSpace from "./pages/BookingSpace";
 import Speakers from "./pages/Speakers";
+import WhyAttend from "./pages/WhyAttend";
 
 interface IApp {}
 
@@ -60,6 +61,7 @@ const App: FC<IApp> = () => {
                             element={<MediaGallery />}
                         />
                         <Route path="/book-space" element={<BookingSpace />} />
+                        <Route path="/why-attend" element={<WhyAttend />} />
                     </Routes>
                 </Layout>
             </BrowserRouter>

@@ -79,18 +79,21 @@ const Header: FC<IHeader> = ({ fixed }) => {
                         )}
                     </button>
                     <div className="space-y-2 2lg:space-x-0">
-                        <div className="hidden 2lg:flex flex-col items-end">
-                            <p className="text-sm text-grayText font-medium">
-                                Fintech Festival Africa 2023
-                            </p>
-                            <p className="text-sm text-grayText font-medium">
-                                08<sup>th</sup> - 09<sup>th</sup> November 2023
-                            </p>
-                            <p className="text-sm text-grayText font-medium">
-                                Julius Nyerere International Convention Center
-                                (JNICC)
-                            </p>
-                        </div>
+                        {!scrolled && (
+                            <div className="hidden 2lg:flex flex-col items-end">
+                                <p className="text-sm text-grayText font-medium">
+                                    Fintech Festival Africa 2023
+                                </p>
+                                <p className="text-sm text-grayText font-medium">
+                                    08<sup>th</sup> - 09<sup>th</sup> November
+                                    2023
+                                </p>
+                                <p className="text-sm text-grayText font-medium">
+                                    Julius Nyerere International Convention
+                                    Center (JNICC)
+                                </p>
+                            </div>
+                        )}
                         <div className="ml-auto space-x-5 2xl:space-x-8 hidden 2lg:flex items-center">
                             {navigations.map((nav, index) => (
                                 <Fragment key={index}>
