@@ -1,15 +1,13 @@
 import { FC } from "react";
-// import Exhibitors from "../components/Exhibitors";
+import Exhibitors from "../components/Exhibitors";
 import Forum from "../components/Forum";
 import Happening from "../components/Happening";
 import SectionWrapper from "../components/SectionWrapper";
 import SponsorPrices from "../components/SponsorPrices";
-// import Sponsers from "../components/Sponsers";
+import Sponsers from "../components/Sponsers";
 import Statistics from "../components/Statistics";
 import TakeTheStage from "../components/TakeTheState";
 import TicketCards from "../components/TicketCards";
-import WhoAttends from "../components/WhoAttends";
-import WhoWillMeet from "../components/WhoWillMeet";
 import HomeIntro from "../containers/HomeIntro";
 import speakers from "../data/speakers.json";
 
@@ -50,7 +48,7 @@ const Home: FC<IHome> = () => {
                     </div>
                 </div>
             </SectionWrapper>
-            {/* <Sponsers /> */}
+            <Sponsers />
             <Forum />
             <TicketCards />
             <SponsorPrices />
@@ -90,9 +88,7 @@ const Home: FC<IHome> = () => {
                 </div>
             </SectionWrapper>
             <TakeTheStage />
-            <WhoAttends />
-            <WhoWillMeet />
-            {/* <Exhibitors /> */}
+            <Exhibitors />
         </div>
     );
 };
