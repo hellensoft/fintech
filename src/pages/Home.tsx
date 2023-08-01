@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Exhibitors from "../components/Exhibitors";
+// import Exhibitors from "../components/Exhibitors";
 import Forum from "../components/Forum";
 import Happening from "../components/Happening";
 import SectionWrapper from "../components/SectionWrapper";
@@ -88,7 +88,7 @@ const Home: FC<IHome> = () => {
                 </div>
             </SectionWrapper>
             <TakeTheStage />
-            <Exhibitors />
+            {/* <Exhibitors /> */}
         </div>
     );
 };
