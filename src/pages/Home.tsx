@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Exhibitors from "../components/Exhibitors";
+// import Exhibitors from "../components/Exhibitors";
 import Forum from "../components/Forum";
 import Happening from "../components/Happening";
 import SectionWrapper from "../components/SectionWrapper";
@@ -10,6 +10,7 @@ import TakeTheStage from "../components/TakeTheState";
 import TicketCards from "../components/TicketCards";
 import HomeIntro from "../containers/HomeIntro";
 import speakers from "../data/speakers.json";
+import KeyConferences from "../components/KeyConferences";
 
 interface IHome {}
 
@@ -48,8 +49,9 @@ const Home: FC<IHome> = () => {
                     </div>
                 </div>
             </SectionWrapper>
-            <Sponsers />
+            {/* <Sponsers /> */}
             <Forum />
+            <KeyConferences />
             <TicketCards />
             <SponsorPrices />
             <Happening />
@@ -88,7 +90,7 @@ const Home: FC<IHome> = () => {
                 </div>
             </SectionWrapper>
             <TakeTheStage />
-            <Exhibitors />
+            {/* <Exhibitors /> */}
         </div>
     );
 };
