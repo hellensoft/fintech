@@ -47,7 +47,7 @@
         "links": [
             {
                 "name": "Agenda",
-                "link": "#",
+                "link": "/agenda",
                 "external": false,
                 "end": false
             },

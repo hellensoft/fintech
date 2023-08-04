@@ -1,22 +1,28 @@
 [
-	{
-		"name": "Grand Sponsor",
-		"sponsors": []
-	},
-	{
-		"name": "Platnum",
-		"sponsors": []
-	},
-	{
-		"name": "Gold",
-		"sponsors": []
-	},
-	{
-		"name": "Silver",
-		"sponsors": []
-	},
-	{
-		"name": "Bronze",
-		"sponsors": []
-	}
+    {
+        "name": "Premium Sponsor",
+        "list": [
+            {
+                "name": "Giift",
+                "logo": "/images/sponsors/giift-logo.jpeg"
+            }
+        ]
+    },
+    {
+        "name": "Silver Sponsors",
+        "list": [
+            {
+                "name": "CR2",
+                "logo": "/images/sponsors/cr2-fav-1.png"
+            },
+            {
+                "name": "Paymentology",
+                "logo": "/images/sponsors/paymentology-logo.png"
+            },
+            {
+                "name": "Axieva",
+                "logo": "/images/sponsors/axieva.png"
+            }
+        ]
+    }
 ]

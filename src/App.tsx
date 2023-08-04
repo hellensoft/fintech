@@ -18,6 +18,7 @@ import MediaGallery from "./pages/MediaGallery";
 import BookingSpace from "./pages/BookingSpace";
 import Speakers from "./pages/Speakers";
 import WhyAttend from "./pages/WhyAttend";
+import Agenda from "./pages/Agenda";
 
 interface IApp {}
 
@@ -62,6 +63,7 @@ const App: FC<IApp> = () => {
                         />
                         <Route path="/book-space" element={<BookingSpace />} />
                         <Route path="/why-attend" element={<WhyAttend />} />
+                        <Route path="/agenda" element={<Agenda />} />
                     </Routes>
                 </Layout>
             </BrowserRouter>

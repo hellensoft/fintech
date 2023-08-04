@@ -10,6 +10,7 @@ import TakeTheStage from "../components/TakeTheState";
 import TicketCards from "../components/TicketCards";
 import HomeIntro from "../containers/HomeIntro";
 import speakers from "../data/speakers.json";
+import KeyConferences from "../components/KeyConferences";
 
 interface IHome {}
 
@@ -48,8 +49,9 @@ const Home: FC<IHome> = () => {
                     </div>
                 </div>
             </SectionWrapper>
-            <Sponsers />
             <Forum />
+            <KeyConferences />
+            <Sponsers />
             <TicketCards />
             <SponsorPrices />
             <Happening />
