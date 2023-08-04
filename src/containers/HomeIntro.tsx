@@ -33,7 +33,7 @@ const HomeIntro: FC<IHomeIntro> = () => {
                                 collaboration between Tanzania & Global FinTech
                                 community.
                             </p>
-                            <div className="space-x-4">
+                            <div className="flex items-center flex-col sm:flex-row space-y-4 sm:space-y-0 justify-center sm:space-x-4">
                                 <Link
                                     className="font-medium bg-greenPrimary border border-greenPrimary hover:bg-bluePrimary duration-300 py-3 px-6 xs:px-4 sm:px-12 text-white uppercase"
                                     to="/apply-sponsor"
