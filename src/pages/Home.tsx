@@ -49,9 +49,9 @@ const Home: FC<IHome> = () => {
                     </div>
                 </div>
             </SectionWrapper>
-            {/* <Sponsers /> */}
             <Forum />
             <KeyConferences />
+            <Sponsers />
             <TicketCards />
             <SponsorPrices />
             <Happening />

@@ -1,53 +1,36 @@
-import { FC, Fragment } from "react";
+import { FC } from "react";
 import SectionWrapper from "./SectionWrapper";
-import { Tab } from "@headlessui/react";
 import sponserData from "../data/sponsers.json";
 
 interface ISponsers {}
 
 const Sponsers: FC<ISponsers> = () => {
-	return (
-		<SectionWrapper>
-			<div className="py-24">
-				<h1 className="text-center text-4xl font-semibold text-blackPrimary">
-					Sponsors
-				</h1>
-				<div className="py-12">
-					<Tab.Group as="div" className="flex items-start space-x-12">
-						<Tab.List
-							as="div"
-							className="flex flex-col w-48 border rounded divide-y"
-						>
-							{sponserData.map((sponsor, index) => (
-								<Tab key={index} as={Fragment}>
-									{({ selected }) => (
-										<button
-											className={`
-												${
-													selected
-														? "bg-bluePrimary text-white"
-														: "bg-white text-blackPrimary hover:bg-[#ffe]"
-												} focus:outline-none py-3 text-md w-full font-medium
-											`}
-										>
-											{sponsor.name}
-										</button>
-									)}
-								</Tab>
-							))}
-						</Tab.List>
-						<Tab.Panels>
-							{sponserData.map((sponsor, index) => (
-								<Tab.Panel as='div' key={index}>
-									{sponsor.name}
-								</Tab.Panel>
-							))}
-						</Tab.Panels>
-					</Tab.Group>
-				</div>
-			</div>
-		</SectionWrapper>
-	);
+    return (
+        <SectionWrapper>
+            <div className="pb-24">
+                <div className="space-y-6">
+                    {sponserData.map((sponsors, index) => (
+                        <div className="my-6" key={index}>
+                            <h1 className="text-center text-3xl md:text-3xl font-semibold text-bluePrimary">
+                                {sponsors.name}
+                            </h1>
+                            <div className="flex items-center justify-around my-8 gap-x-8">
+                                {sponsors.list.map((spo, index) => (
+                                    <div className="" key={index}>
+                                        <img
+                                            src={spo.logo}
+                                            alt={spo.name}
+                                            className="h-20 w-auto"
+                                        />
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </SectionWrapper>
+    );
 };
 
 export default Sponsers;
