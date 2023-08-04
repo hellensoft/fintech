@@ -71,7 +71,7 @@ const Exhibitors: FC<IExhibitors> = () => {
                             slidesPerView: 6,
                         },
                     }}
-                    autoplay={{ delay: 2000 }}
+                    autoplay={{ delay: 0 }}
                     fadeEffect={{
                         crossFade: true,
                     }}
