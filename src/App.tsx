@@ -19,6 +19,7 @@ import BookingSpace from "./pages/BookingSpace";
 import Speakers from "./pages/Speakers";
 import WhyAttend from "./pages/WhyAttend";
 import Agenda from "./pages/Agenda";
+import MediaPartners from "./pages/MediaPartners";
 
 interface IApp {}
 
@@ -57,9 +58,10 @@ const App: FC<IApp> = () => {
                             path="/sponsors-exhibitors"
                             element={<SponsorsExhibitors />}
                         />
+                        <Route path="/gallary" element={<MediaGallery />} />
                         <Route
-                            path="/media-gallery"
-                            element={<MediaGallery />}
+                            path="/media-partners"
+                            element={<MediaPartners />}
                         />
                         <Route path="/book-space" element={<BookingSpace />} />
                         <Route path="/why-attend" element={<WhyAttend />} />

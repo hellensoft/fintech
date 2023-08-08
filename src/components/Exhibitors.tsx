@@ -83,12 +83,15 @@ const Exhibitors: FC<IExhibitors> = () => {
                             index: Key | null | undefined
                         ) => (
                             <SwiperSlide key={index}>
-                                <div className="flex items-center px-8 sm:px-0 justify-center h-28">
+                                <div className="flex items-center px-8 sm:px-0 justify-center h-28 group">
                                     <img
                                         className=""
                                         src={exhibitor.logo.url}
                                         alt={exhibitor.name}
                                     />
+                                    <div className="hidden absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white text-center py-2 group-hover:block">
+                                        {exhibitor.name}
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         )
