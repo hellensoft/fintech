@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SectionWrapper from "./SectionWrapper";
 import { graphqlFetcher } from "../utils";
 
-type Partner = {
+type Company = {
     sys: {
         id: string;
     };
@@ -16,21 +16,21 @@ type Partner = {
 };
 
 type ParterCollection = {
-    items: Partner[];
+    items: Company[];
 };
 
 type Data = {
-    associatePartnersCollection: ParterCollection;
+    confirmedCompaniesCollection: ParterCollection;
 };
 
-const AssociatePartners: FC = () => {
-    const [associatePartner, setAssociatePartner] = useState<Partner[]>([]);
+const ConfirmedCompanies: FC = () => {
+    const [companyList, setCompanyList] = useState<Company[]>([]);
 
     useEffect(() => {
         const getExhibitors = async () => {
             const data: Data = await graphqlFetcher(`
             {
-                associatePartnersCollection {
+                confirmedCompaniesCollection {
                     items {
                         sys {
                             id
@@ -43,23 +43,23 @@ const AssociatePartners: FC = () => {
                 }
             }`);
 
-            setAssociatePartner(data.associatePartnersCollection.items);
+            setCompanyList(data.confirmedCompaniesCollection.items);
         };
 
         getExhibitors();
     }, []);
 
-    const grouped_list: Partner[][] = [];
+    const grouped_list: Company[][] = [];
 
-    for (let i = 0; i < associatePartner.length; i += 2) {
-        grouped_list.push(associatePartner.slice(i, i + 2));
+    for (let i = 0; i < companyList.length; i += 2) {
+        grouped_list.push(companyList.slice(i, i + 2));
     }
 
     return (
         <SectionWrapper>
             <div className="py-24">
                 <h1 className="text-2xl sm:text-3xl text-bluePrimary font-semibold mb-4 text-center">
-                    Associate partners
+                    Confirmed Companies
                 </h1>
                 <div className="py-8">
                     <Swiper
@@ -83,11 +83,11 @@ const AssociatePartners: FC = () => {
                         spaceBetween={40}
                     >
                         {grouped_list.map(
-                            (exhibitorGroup: Partner[], index: number) => (
+                            (exhibitorGroup: Company[], index: number) => (
                                 <SwiperSlide key={index}>
                                     <div className="grid gap-12 justify-items-center place-items-center items-center">
                                         {exhibitorGroup.map(
-                                            (exhibitor: Partner) => (
+                                            (exhibitor: Company) => (
                                                 <div className="relative flex items-center px-8 sm:px-0 justify-center h-28 group">
                                                     <img
                                                         className="w-auto h-auto"
@@ -111,4 +111,4 @@ const AssociatePartners: FC = () => {
     );
 };
 
-export default AssociatePartners;
+export default ConfirmedCompanies;
