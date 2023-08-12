@@ -1,4 +1,4 @@
-import { FC, Key, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import "swiper/css";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -51,6 +51,12 @@ const Exhibitors: FC<IExhibitors> = () => {
         getExhibitors();
     }, []);
 
+    const grouped_list: Exhibitor[][] = [];
+
+    for (let i = 0; i < exhibitors.length; i += 2) {
+        grouped_list.push(exhibitors.slice(i, i + 2));
+    }
+
     return (
         <SectionWrapper>
             <div className="py-24">
@@ -77,21 +83,24 @@ const Exhibitors: FC<IExhibitors> = () => {
                     }}
                     spaceBetween={40}
                 >
-                    {exhibitors.map(
-                        (
-                            exhibitor: any | null | undefined,
-                            index: Key | null | undefined
-                        ) => (
+                    {grouped_list.map(
+                        (exhibitorGroup: Exhibitor[], index: number) => (
                             <SwiperSlide key={index}>
-                                <div className="flex items-center px-8 sm:px-0 justify-center h-28 group">
-                                    <img
-                                        className=""
-                                        src={exhibitor.logo.url}
-                                        alt={exhibitor.name}
-                                    />
-                                    <div className="hidden absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white text-center py-2 group-hover:block">
-                                        {exhibitor.name}
-                                    </div>
+                                <div className="grid gap-12 justify-items-center place-items-center items-center">
+                                    {exhibitorGroup.map(
+                                        (exhibitor: Exhibitor) => (
+                                            <div className="flex items-center px-8 sm:px-0 justify-center h-28 group">
+                                                <img
+                                                    className="w-auto h-auto"
+                                                    src={exhibitor.logo.url}
+                                                    alt={exhibitor.name}
+                                                />
+                                                <div className="hidden absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white text-center py-2 group-hover:block">
+                                                    {exhibitor.name}
+                                                </div>
+                                            </div>
+                                        )
+                                    )}
                                 </div>
                             </SwiperSlide>
                         )
