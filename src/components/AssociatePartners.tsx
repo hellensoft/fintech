@@ -5,9 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SectionWrapper from "./SectionWrapper";
 import { graphqlFetcher } from "../utils";
 
-interface IExhibitors {}
-
-type Exhibitor = {
+type Partner = {
     sys: {
         id: string;
     };
@@ -17,16 +15,16 @@ type Exhibitor = {
     };
 };
 
-type ExhibitorsCollection = {
-    items: Exhibitor[];
+type ParterCollection = {
+    items: Partner[];
 };
 
 type Data = {
-    exhibitorsCollection: ExhibitorsCollection;
+    associatePartnerCollection: ParterCollection;
 };
 
-const Exhibitors: FC<IExhibitors> = () => {
-    const [exhibitors, setExhibitors] = useState<Exhibitor[]>([]);
+const AssociatePartners: FC = () => {
+    const [associatePartner, setAssociatePartner] = useState<Partner[]>([]);
 
     useEffect(() => {
         const getExhibitors = async () => {
@@ -45,23 +43,23 @@ const Exhibitors: FC<IExhibitors> = () => {
                 }
             }`);
 
-            setExhibitors(data.exhibitorsCollection.items);
+            setAssociatePartner(data.associatePartnerCollection.items);
         };
 
         getExhibitors();
     }, []);
 
-    const grouped_list: Exhibitor[][] = [];
+    const grouped_list: Partner[][] = [];
 
-    for (let i = 0; i < exhibitors.length; i += 2) {
-        grouped_list.push(exhibitors.slice(i, i + 2));
+    for (let i = 0; i < associatePartner.length; i += 2) {
+        grouped_list.push(associatePartner.slice(i, i + 2));
     }
 
     return (
         <SectionWrapper>
             <div className="py-24">
                 <h1 className="text-2xl sm:text-3xl text-bluePrimary font-semibold mb-4 text-center">
-                    Exhibitors
+                    Associate partners
                 </h1>
                 <div className="py-8">
                     <Swiper
@@ -85,11 +83,11 @@ const Exhibitors: FC<IExhibitors> = () => {
                         spaceBetween={40}
                     >
                         {grouped_list.map(
-                            (exhibitorGroup: Exhibitor[], index: number) => (
+                            (exhibitorGroup: Partner[], index: number) => (
                                 <SwiperSlide key={index}>
                                     <div className="grid gap-12 justify-items-center place-items-center items-center">
                                         {exhibitorGroup.map(
-                                            (exhibitor: Exhibitor) => (
+                                            (exhibitor: Partner) => (
                                                 <div className="relative flex items-center px-8 sm:px-0 justify-center h-28 group">
                                                     <img
                                                         className="w-auto h-auto"
@@ -113,4 +111,4 @@ const Exhibitors: FC<IExhibitors> = () => {
     );
 };
 
-export default Exhibitors;
+export default AssociatePartners;
