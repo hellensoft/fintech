@@ -79,14 +79,14 @@
     },
     {
         "name": "Resources",
-        "link": "/media-gallery",
+        "link": "/gallary",
         "multiple": false,
         "external": true,
         "end": false
     },
     {
         "name": "Media",
-        "link": "/media-gallery",
+        "link": "/media-partners",
         "multiple": false,
         "external": true,
         "end": false

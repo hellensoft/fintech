@@ -11,6 +11,8 @@ import TicketCards from "../components/TicketCards";
 import HomeIntro from "../containers/HomeIntro";
 import speakers from "../data/speakers.json";
 import KeyConferences from "../components/KeyConferences";
+import AssociatePartners from "../components/AssociatePartners";
+import ConfirmedCompanies from "../components/ConfirmedCompanies";
 
 interface IHome {}
 
@@ -54,7 +56,9 @@ const Home: FC<IHome> = () => {
             <Sponsers />
             <TicketCards />
             <SponsorPrices />
+            <ConfirmedCompanies />
             <Happening />
+            <AssociatePartners />
             <SectionWrapper>
                 <div className="py-10 md:py-16">
                     <div className="max-w-[787px] mx-auto text-center mb-8">
